@@ -1,0 +1,1426 @@
+{
+  "PONY": {
+    "score": 0,
+    "price": 6.574999809265137,
+    "ret_12m": -68.94189992645401,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Self-Driving (自动驾驶)"
+  },
+  "GRAB": {
+    "score": 43,
+    "price": 3.108299970626831,
+    "ret_12m": -49.127661166858736,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Self-Driving (自动驾驶)"
+  },
+  "UBER": {
+    "score": 59,
+    "price": 68.91000366210938,
+    "ret_12m": -30.005072830690672,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Self-Driving (自动驾驶)"
+  },
+  "ARM": {
+    "score": 65,
+    "price": 297.3117980957031,
+    "ret_12m": 112.94356717758075,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "PATH": {
+    "score": 59,
+    "price": 12.110199928283691,
+    "ret_12m": -0.8173637145903467,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Robotics (机器人)"
+  },
+  "AMD": {
+    "score": 72,
+    "price": 611.0300903320312,
+    "ret_12m": 283.18704666083147,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "GOOGL": {
+    "score": 84,
+    "price": 339.5400085449219,
+    "ret_12m": 38.08025325444697,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Hyperscaler (超大规模云)"
+  },
+  "MSFT": {
+    "score": 83,
+    "price": 508.0199890136719,
+    "ret_12m": 0.14465112098753785,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Hyperscaler (超大规模云)"
+  },
+  "INTC": {
+    "score": 46,
+    "price": 116.0,
+    "ret_12m": 226.7605633802817,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "NVDA": {
+    "score": 90,
+    "price": 229.35000610351562,
+    "ret_12m": 29.019294419228792,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "AMZN": {
+    "score": 78,
+    "price": 247.15499877929688,
+    "ret_12m": 12.45563752481862,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Hyperscaler (超大规模云)"
+  },
+  "ISRG": {
+    "score": 54,
+    "price": 408.12359619140625,
+    "ret_12m": -7.480141297384502,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Robotics (机器人)"
+  },
+  "MRVL": {
+    "score": 72,
+    "price": 261.8900146484375,
+    "ret_12m": 215.5560985434839,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "MU": {
+    "score": 88,
+    "price": 1069.85205078125,
+    "ret_12m": 581.3563528714479,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "TSM": {
+    "score": 97,
+    "price": 456.5299987792969,
+    "ret_12m": 68.77443265471899,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "AVGO": {
+    "score": 70,
+    "price": 355.739990234375,
+    "ret_12m": 7.130904433572871,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": false,
+    "sector": "Semis (半导体)"
+  },
+  "META": {
+    "score": 78,
+    "price": 718.1480712890625,
+    "ret_12m": -3.1147509396507345,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Hyperscaler (超大规模云)"
+  },
+  "TSLA": {
+    "score": 23,
+    "price": 352.18499755859375,
+    "ret_12m": -20.030653397017417,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Self-Driving (自动驾驶)"
+  },
+  "AAPL": {
+    "score": 82,
+    "price": 331.0400085449219,
+    "ret_12m": 30.064537556781357,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Hyperscaler (超大规模云)"
+  },
+  "SERV": {
+    "score": 4,
+    "price": 4.559500217437744,
+    "ret_12m": -60.96318408983873,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Robotics (机器人)"
+  },
+  "ANET": {
+    "score": 84,
+    "price": 201.64599609375,
+    "ret_12m": 41.50596217105262,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "SMCI": {
+    "score": 49,
+    "price": 41.244998931884766,
+    "ret_12m": -9.984724560040192,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "ASML": {
+    "score": 84,
+    "price": 1820.550048828125,
+    "ret_12m": 92.59093010172658,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "AMAT": {
+    "score": 77,
+    "price": 500.4750061035156,
+    "ret_12m": 146.78460474666664,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "NXPI": {
+    "score": 68,
+    "price": 235.21249389648438,
+    "ret_12m": 5.895892747791698,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": false,
+    "sector": "Semis (半导体)"
+  },
+  "KLAC": {
+    "score": 79,
+    "price": 193.61000061035156,
+    "ret_12m": 82.8960580358417,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "DELL": {
+    "score": 63,
+    "price": 540.3992919921875,
+    "ret_12m": 318.54203329582685,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "NBIS": {
+    "score": 54,
+    "price": 240.69500732421875,
+    "ret_12m": 123.48654980918012,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "CRWV": {
+    "score": 18,
+    "price": 85.54000091552734,
+    "ret_12m": -28.91806255723314,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "ADI": {
+    "score": 86,
+    "price": 397.05230712890625,
+    "ret_12m": 62.39224388099516,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "LRCX": {
+    "score": 74,
+    "price": 319.625,
+    "ret_12m": 150.21531511273128,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "QCOM": {
+    "score": 71,
+    "price": 183.05499267578125,
+    "ret_12m": 10.441546457020268,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "MCHP": {
+    "score": 75,
+    "price": 78.83000183105469,
+    "ret_12m": 25.573941635690666,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "COHR": {
+    "score": 58,
+    "price": 293.1695861816406,
+    "ret_12m": 174.0158818910659,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "IREN": {
+    "score": 11,
+    "price": 41.1599006652832,
+    "ret_12m": -1.67247953860572,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "GFS": {
+    "score": 35,
+    "price": 47.6349983215332,
+    "ret_12m": 34.3729406462782,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Semis (半导体)"
+  },
+  "TXN": {
+    "score": 87,
+    "price": 280.6400146484375,
+    "ret_12m": 56.00527933662218,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "TER": {
+    "score": 82,
+    "price": 402.0899963378906,
+    "ret_12m": 197.73766167529118,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Semis (半导体)"
+  },
+  "ORCL": {
+    "score": 40,
+    "price": 137.9949951171875,
+    "ret_12m": -50.76278258627418,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "DLR": {
+    "score": 58,
+    "price": 176.52999877929688,
+    "ret_12m": 5.905633698897339,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "MP": {
+    "score": 10,
+    "price": 45.03499984741211,
+    "ret_12m": -34.38000633874535,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "CSCO": {
+    "score": 84,
+    "price": 106.12999725341797,
+    "ret_12m": 61.153789254144186,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "GEV": {
+    "score": 77,
+    "price": 957.4849853515625,
+    "ret_12m": 58.57680471776949,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "CIFR": {
+    "score": 13,
+    "price": 16.59000015258789,
+    "ret_12m": 44.63818453672423,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "VST": {
+    "score": 39,
+    "price": 139.67999267578125,
+    "ret_12m": -32.2018066299386,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "VRT": {
+    "score": 59,
+    "price": 248.27999877929688,
+    "ret_12m": 79.29907392194568,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "CIEN": {
+    "score": 50,
+    "price": 347.0899963378906,
+    "ret_12m": 144.55014038559702,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "ETN": {
+    "score": 66,
+    "price": 432.17999267578125,
+    "ret_12m": 19.535658859896298,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "BE": {
+    "score": 62,
+    "price": 296.0899963378906,
+    "ret_12m": 321.0608612384334,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Energy (能源)"
+  },
+  "LAC": {
+    "score": 0,
+    "price": 2.6449999809265137,
+    "ret_12m": -58.214849718703746,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "SMR": {
+    "score": 0,
+    "price": 7.820000171661377,
+    "ret_12m": -79.42105217983848,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "CEG": {
+    "score": 27,
+    "price": 263.1600036621094,
+    "ret_12m": -20.11377211392775,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "APLD": {
+    "score": 16,
+    "price": 24.969999313354492,
+    "ret_12m": 15.016123290458538,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "AI Infrastructure (AI基建)"
+  },
+  "OKLO": {
+    "score": 2,
+    "price": 36.9900016784668,
+    "ret_12m": -66.53397078893725,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "QS": {
+    "score": 0,
+    "price": 4.550000190734863,
+    "ret_12m": -64.06002965580643,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "EOSE": {
+    "score": 2,
+    "price": 3.134999990463257,
+    "ret_12m": -69.02173887435707,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "ONDS": {
+    "score": 31,
+    "price": 7.550000190734863,
+    "ret_12m": -1.436026878178187,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Energy (能源)"
+  },
+  "PLTR": {
+    "score": 76,
+    "price": 185.8800048828125,
+    "ret_12m": 4.679843000412132,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "SNOW": {
+    "score": 46,
+    "price": 327.57000732421875,
+    "ret_12m": 45.819982289099585,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "NOW": {
+    "score": 62,
+    "price": 130.25,
+    "ret_12m": -30.422007412739404,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "SOUN": {
+    "score": 5,
+    "price": 5.864999771118164,
+    "ret_12m": -63.205772110960545,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "SHOP": {
+    "score": 62,
+    "price": 146.3249969482422,
+    "ret_12m": 4.3315486261976455,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "OKTA": {
+    "score": 62,
+    "price": 203.24000549316406,
+    "ret_12m": 122.9486587632079,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "AI": {
+    "score": 12,
+    "price": 10.295000076293945,
+    "ret_12m": -39.93582005311198,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "MDB": {
+    "score": 43,
+    "price": 330.1099853515625,
+    "ret_12m": 3.6745019173043625,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "ADBE": {
+    "score": 60,
+    "price": 229.39999389648438,
+    "ret_12m": -36.34320365049077,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "IBM": {
+    "score": 49,
+    "price": 220.88499450683594,
+    "ret_12m": -20.28865952814103,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "CRM": {
+    "score": 79,
+    "price": 226.19500732421875,
+    "ret_12m": -6.291928341491748,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "RBRK": {
+    "score": 55,
+    "price": 113.29280090332031,
+    "ret_12m": 37.90967595737755,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "DDOG": {
+    "score": 65,
+    "price": 265.19000244140625,
+    "ret_12m": 90.68813437476821,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "BBAI": {
+    "score": 0,
+    "price": 2.6494998931884766,
+    "ret_12m": -60.631502441611715,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "NFLX": {
+    "score": 53,
+    "price": 70.51499938964844,
+    "ret_12m": -41.75250400073558,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "ZETA": {
+    "score": 57,
+    "price": 28.799999237060547,
+    "ret_12m": 40.350870343982706,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "UPST": {
+    "score": 28,
+    "price": 22.920000076293945,
+    "ret_12m": -60.03487238689904,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "DUOL": {
+    "score": 56,
+    "price": 139.67999267578125,
+    "ret_12m": -57.20457538315505,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "SPOT": {
+    "score": 45,
+    "price": 493.0150146484375,
+    "ret_12m": -31.194088943874544,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "APP": {
+    "score": 57,
+    "price": 306.25,
+    "ret_12m": -54.28149065520448,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "RDDT": {
+    "score": 55,
+    "price": 144.22000122070312,
+    "ret_12m": -39.93586237387001,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "U": {
+    "score": 45,
+    "price": 39.582298278808594,
+    "ret_12m": -7.431478408464698,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "TTD": {
+    "score": 39,
+    "price": 12.375,
+    "ret_12m": -73.74840865458847,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "RBLX": {
+    "score": 9,
+    "price": 41.80419921875,
+    "ret_12m": -69.04768253041476,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "INFY": {
+    "score": 45,
+    "price": 10.53499984741211,
+    "ret_12m": -33.87039990852871,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "WOLF": {
+    "score": 21,
+    "price": 27.40999984741211,
+    "ret_12m": null,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "SNPS": {
+    "score": 59,
+    "price": 412.56500244140625,
+    "ret_12m": -15.41639450112996,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "ALAB": {
+    "score": 70,
+    "price": 360.7900085449219,
+    "ret_12m": 82.41986589732373,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "CRDO": {
+    "score": 74,
+    "price": 192.75999450683594,
+    "ret_12m": 34.86322282551837,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "PANW": {
+    "score": 67,
+    "price": 382.8550109863281,
+    "ret_12m": 89.18566004047497,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "CRWD": {
+    "score": 65,
+    "price": 258.9549865722656,
+    "ret_12m": 115.15930318600032,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "NET": {
+    "score": 52,
+    "price": 351.614990234375,
+    "ret_12m": 62.52888794784166,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "INTU": {
+    "score": 51,
+    "price": 266.489990234375,
+    "ret_12m": -61.40638912123795,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "TEAM": {
+    "score": 43,
+    "price": 176.86000061035156,
+    "ret_12m": 6.126616914375171,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "WDAY": {
+    "score": 74,
+    "price": 186.875,
+    "ret_12m": -24.240888074273002,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "S": {
+    "score": 53,
+    "price": 22.825000762939453,
+    "ret_12m": 25.757582604223472,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "ZS": {
+    "score": 45,
+    "price": 196.8350067138672,
+    "ret_12m": -33.19700974335716,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "GTLB": {
+    "score": 43,
+    "price": 46.349998474121094,
+    "ret_12m": -2.359390599917588,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "TWLO": {
+    "score": 69,
+    "price": 285.6199951171875,
+    "ret_12m": 179.08931535835794,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "HUBS": {
+    "score": 37,
+    "price": 196.8800048828125,
+    "ret_12m": -61.97465984830802,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Software (软件)"
+  },
+  "TEM": {
+    "score": 31,
+    "price": 83.61000061035156,
+    "ret_12m": 6.536693468381127,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "ESTC": {
+    "score": 77,
+    "price": 88.02999877929688,
+    "ret_12m": 2.4200138509687497,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Software (软件)"
+  },
+  "UNH": {
+    "score": 65,
+    "price": 372.7099914550781,
+    "ret_12m": 11.205048450335898,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "HIMS": {
+    "score": 38,
+    "price": 28.43000030517578,
+    "ret_12m": -51.318493900077144,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "OSCR": {
+    "score": 73,
+    "price": 29.415000915527344,
+    "ret_12m": 59.69055805479433,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "CRSP": {
+    "score": 37,
+    "price": 55.86000061035156,
+    "ret_12m": -9.421108693204804,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "RXRX": {
+    "score": 25,
+    "price": 3.875,
+    "ret_12m": -17.902538723573546,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "TMDX": {
+    "score": 42,
+    "price": 82.54000091552734,
+    "ret_12m": -27.513832506687198,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Health (医疗)"
+  },
+  "FLY": {
+    "score": 3,
+    "price": 23.309999465942383,
+    "ret_12m": -35.21400844216477,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Space (太空/出行)"
+  },
+  "RKLB": {
+    "score": 16,
+    "price": 70.3207015991211,
+    "ret_12m": 52.01189829353725,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Space (太空/出行)"
+  },
+  "ASTS": {
+    "score": 15,
+    "price": 59.04999923706055,
+    "ret_12m": 20.28926268794806,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Space (太空/出行)"
+  },
+  "JOBY": {
+    "score": 13,
+    "price": 5.965000152587891,
+    "ret_12m": -62.973308959684026,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Space (太空/出行)"
+  },
+  "LLY": {
+    "score": 91,
+    "price": 1179.6400146484375,
+    "ret_12m": 63.83911314441344,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Health (医疗)"
+  },
+  "ACHR": {
+    "score": 0,
+    "price": 5.089900016784668,
+    "ret_12m": -45.15193789606903,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Space (太空/出行)"
+  },
+  "LUNR": {
+    "score": 8,
+    "price": 14.800100326538086,
+    "ret_12m": 46.82639323966007,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Space (太空/出行)"
+  },
+  "BIDU": {
+    "score": 12,
+    "price": 86.05999755859375,
+    "ret_12m": -34.47540737157302,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "BABA": {
+    "score": 28,
+    "price": 107.51000213623047,
+    "ret_12m": -36.88710870507318,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "JD": {
+    "score": 45,
+    "price": 26.165000915527344,
+    "ret_12m": -21.455655354781435,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "TCEHY": {
+    "score": 58,
+    "price": 54.34000015258789,
+    "ret_12m": -34.075867543303815,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "XPEV": {
+    "score": 5,
+    "price": 9.444999694824219,
+    "ret_12m": -58.5563873830776,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "PDD": {
+    "score": 53,
+    "price": 77.34120178222656,
+    "ret_12m": -40.50219361957501,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "NIO": {
+    "score": 9,
+    "price": 3.4049999713897705,
+    "ret_12m": -51.63352287158924,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "FUTU": {
+    "score": 50,
+    "price": 111.93000030517578,
+    "ret_12m": -34.20591395139372,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "China (中概股)"
+  },
+  "ETH-USD": {
+    "score": 44,
+    "price": 2675.860107421875,
+    "ret_12m": -8.848109414972638,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "XRP-USD": {
+    "score": 36,
+    "price": 1.4875999689102173,
+    "ret_12m": -21.273597067887927,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "SOL-USD": {
+    "score": 47,
+    "price": 118.19000244140625,
+    "ret_12m": -5.978824023377294,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "DOGE-USD": {
+    "score": 35,
+    "price": 0.0934000015258789,
+    "ret_12m": -24.229518277757656,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "COIN": {
+    "score": 33,
+    "price": 190.40499877929688,
+    "ret_12m": -39.087942349415194,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "MSTR": {
+    "score": 37,
+    "price": 153.83999633789062,
+    "ret_12m": -50.22325841158898,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "BTC-USD": {
+    "score": 50,
+    "price": 83082.6328125,
+    "ret_12m": -5.920303232648571,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "HUT": {
+    "score": 38,
+    "price": 93.41999816894531,
+    "ret_12m": 181.72496561768244,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "RIOT": {
+    "score": 30,
+    "price": 21.684999465942383,
+    "ret_12m": 22.583373721178845,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "ADA-USD": {
+    "score": 31,
+    "price": 0.24243000149726868,
+    "ret_12m": -30.818880984949327,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "MARA": {
+    "score": 26,
+    "price": 12.074999809265137,
+    "ret_12m": -25.139488918043718,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "BMNR": {
+    "score": 36,
+    "price": 26.53499984741211,
+    "ret_12m": -47.44001326846695,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "CLSK": {
+    "score": 25,
+    "price": 13.380000114440918,
+    "ret_12m": 3.240741319889673,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "CRCL": {
+    "score": 26,
+    "price": 84.33499908447266,
+    "ret_12m": -33.589258600551894,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "XYZ": {
+    "score": 51,
+    "price": 73.2699966430664,
+    "ret_12m": -0.5429639416599352,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "SBET": {
+    "score": 35,
+    "price": 9.475000381469727,
+    "ret_12m": -40.78124761581421,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "FIG": {
+    "score": 21,
+    "price": 20.428300857543945,
+    "ret_12m": -61.390472658368154,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "IBIT": {
+    "score": 35,
+    "price": 47.02840042114258,
+    "ret_12m": -24.07426305485324,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "BULL": {
+    "score": 36,
+    "price": 7.034999847412109,
+    "ret_12m": -53.594987346830216,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "HIVE": {
+    "score": 34,
+    "price": 3.036099910736084,
+    "ret_12m": -13.74716115944581,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "ETHA": {
+    "score": 27,
+    "price": 20.18000030517578,
+    "ret_12m": -33.749176258305354,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "XRPC": {
+    "score": 24,
+    "price": 15.734999656677246,
+    "ret_12m": null,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "BSOL": {
+    "score": 19,
+    "price": 16.28499984741211,
+    "ret_12m": null,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Crypto (加密货币及相关)"
+  },
+  "SOFI": {
+    "score": 41,
+    "price": 15.885000228881836,
+    "ret_12m": -43.22730347117007,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Finance (金融科技)"
+  },
+  "OPEN": {
+    "score": 0,
+    "price": 2.359999895095825,
+    "ret_12m": -73.21226126345061,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Finance (金融科技)"
+  },
+  "AFRM": {
+    "score": 71,
+    "price": 68.1500015258789,
+    "ret_12m": -10.364326423695413,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Finance (金融科技)"
+  },
+  "HOOD": {
+    "score": 67,
+    "price": 115.69999694824219,
+    "ret_12m": -4.992611177532968,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Finance (金融科技)"
+  },
+  "IONQ": {
+    "score": 24,
+    "price": 43.959999084472656,
+    "ret_12m": -34.66111789229127,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": true,
+    "sector": "Quantum (量子计算)"
+  },
+  "LMND": {
+    "score": 18,
+    "price": 44.58599853515625,
+    "ret_12m": -13.307411490197419,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Finance (金融科技)"
+  },
+  "RGTI": {
+    "score": 16,
+    "price": 15.838399887084961,
+    "ret_12m": -49.20333633077022,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Quantum (量子计算)"
+  },
+  "QUBT": {
+    "score": 10,
+    "price": 8.529800415039062,
+    "ret_12m": -57.65797854945311,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Quantum (量子计算)"
+  },
+  "PYPL": {
+    "score": 69,
+    "price": 53.584999084472656,
+    "ret_12m": -19.490975208445626,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Finance (金融科技)"
+  },
+  "QBTS": {
+    "score": 8,
+    "price": 16.399999618530273,
+    "ret_12m": -38.714501202321,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": "Quantum (量子计算)"
+  },
+  "LULU": {
+    "score": 46,
+    "price": 97.51000213623047,
+    "ret_12m": -44.690867584611624,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "GME": {
+    "score": 56,
+    "price": 23.334999084472656,
+    "ret_12m": -11.676763750615537,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "UPS": {
+    "score": 56,
+    "price": 93.55999755859375,
+    "ret_12m": 19.09404549001479,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "CMG": {
+    "score": 47,
+    "price": 32.28499984741211,
+    "ret_12m": -19.448606855109663,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "ABNB": {
+    "score": 86,
+    "price": 155.22000122070312,
+    "ret_12m": 25.481006507744162,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "PTON": {
+    "score": 44,
+    "price": 4.925000190734863,
+    "ret_12m": -42.49853552807227,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "BRK-B": {
+    "score": 70,
+    "price": 500.9800109863281,
+    "ret_12m": 0.1899910424075557,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "GS": {
+    "score": 65,
+    "price": 905.6500244140625,
+    "ret_12m": 15.071788757976435,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": false,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "BA": {
+    "score": 37,
+    "price": 188.30999755859375,
+    "ret_12m": -14.891981273742728,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "JPM": {
+    "score": 72,
+    "price": 334.54998779296875,
+    "ret_12m": 7.87515195957742,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "COST": {
+    "score": 45,
+    "price": 920.6500244140625,
+    "ret_12m": 1.099580331576533,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "XOM": {
+    "score": 74,
+    "price": 161.6999969482422,
+    "ret_12m": 41.94376642248947,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "CVX": {
+    "score": 81,
+    "price": 204.86000061035156,
+    "ret_12m": 32.94984721720626,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "GE": {
+    "score": 55,
+    "price": 318.340087890625,
+    "ret_12m": 8.467260181015712,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": false,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "NKE": {
+    "score": 37,
+    "price": 35.69499969482422,
+    "ret_12m": -46.801427007973615,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Consumer/Other (消费/其他)"
+  },
+  "CAT": {
+    "score": 72,
+    "price": 818.989990234375,
+    "ret_12m": 77.42230726858122,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "^IXIC": {
+    "score": 48,
+    "price": 26746.83203125,
+    "ret_12m": 18.95903036907032,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": null
+  },
+  "DE": {
+    "score": 63,
+    "price": 681.7550048828125,
+    "ret_12m": 48.77366561869066,
+    "rating": "🟢 增持 / 长线建仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "^DJI": {
+    "score": 46,
+    "price": 51167.05859375,
+    "ret_12m": 10.637963069794809,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": true,
+    "sector": null
+  },
+  "WMT": {
+    "score": 35,
+    "price": 105.81999969482422,
+    "ret_12m": 3.4421837381588105,
+    "rating": "🟠 减持 / 风险警告",
+    "above_ma200": false,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "JNJ": {
+    "score": 79,
+    "price": 266.5299987792969,
+    "ret_12m": 51.653468380982304,
+    "rating": "🟢 买入 / 核心持仓",
+    "above_ma200": true,
+    "sector": "Rotation (轮动板凳)"
+  },
+  "^GSPC": {
+    "score": 48,
+    "price": 7655.81005859375,
+    "ret_12m": 15.23412907757864,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": null
+  },
+  "^HSI": {
+    "score": 28,
+    "price": 24523.5703125,
+    "ret_12m": -8.86273856261145,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": null
+  },
+  "000001.SS": {
+    "score": 28,
+    "price": 3832.664794921875,
+    "ret_12m": -1.1004099597398564,
+    "rating": "🔴 回避 / 重新评估",
+    "above_ma200": false,
+    "sector": null
+  },
+  "^RUT": {
+    "score": 48,
+    "price": 2795.789794921875,
+    "ret_12m": 14.848898929141829,
+    "rating": "🟡 持有 / 观望",
+    "above_ma200": true,
+    "sector": null
+  }
+}

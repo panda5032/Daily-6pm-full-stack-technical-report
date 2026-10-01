@@ -1,0 +1,1686 @@
+{
+ "generated": "2026-10-01 11:53",
+ "gauges": {
+  "VIX": {
+   "last": 16.77,
+   "d1": 2.63,
+   "d5": 7.02,
+   "d20": 17.11,
+   "pct6m": 51.0,
+   "ma50_dev": 5.76,
+   "ma200_dev": -7.19
+  },
+  "VIX3M": {
+   "last": 18.75,
+   "d1": 2.07,
+   "d5": 1.74,
+   "d20": 5.75,
+   "pct6m": 25.0,
+   "ma50_dev": 0.1,
+   "ma200_dev": -8.36
+  },
+  "VIX9D": {
+   "last": 14.57,
+   "d1": 2.61,
+   "d5": 3.26,
+   "d20": 15.91,
+   "pct6m": 48.0,
+   "ma50_dev": 4.09,
+   "ma200_dev": -11.29
+  },
+  "HYG": {
+   "last": 76.71,
+   "d1": -0.65,
+   "d5": -1.52,
+   "d20": -3.04,
+   "pct6m": 0.0,
+   "ma50_dev": -2.6,
+   "ma200_dev": -1.96
+  },
+  "IEF": {
+   "last": 89.28,
+   "d1": -0.03,
+   "d5": -0.46,
+   "d20": -3.15,
+   "pct6m": 0.0,
+   "ma50_dev": -2.83,
+   "ma200_dev": -4.18
+  },
+  "LQD": {
+   "last": 101.92,
+   "d1": -0.25,
+   "d5": -1.19,
+   "d20": -3.26,
+   "pct6m": 0.0,
+   "ma50_dev": -3.02,
+   "ma200_dev": -4.45
+  },
+  "DXY": {
+   "last": 102.15,
+   "d1": 0.69,
+   "d5": 0.85,
+   "d20": 2.6,
+   "pct6m": 99.0,
+   "ma50_dev": 2.16,
+   "ma200_dev": 2.91
+  },
+  "US10Y": {
+   "last": 5.24,
+   "d1": -1.06,
+   "d5": 1.45,
+   "d20": 9.2,
+   "pct6m": 97.0,
+   "ma50_dev": 8.64,
+   "ma200_dev": 17.82
+  },
+  "US30Y": {
+   "last": 5.6,
+   "d1": -0.71,
+   "d5": 2.51,
+   "d20": 6.28,
+   "pct6m": 98.0,
+   "ma50_dev": 5.92,
+   "ma200_dev": 11.98
+  },
+  "US3M": {
+   "last": 3.99,
+   "d1": -0.92,
+   "d5": -1.84,
+   "d20": 5.86,
+   "pct6m": 94.0,
+   "ma50_dev": 4.76,
+   "ma200_dev": 9.22
+  },
+  "RSP": {
+   "last": 208.33,
+   "d1": 0.15,
+   "d5": -0.92,
+   "d20": -4.34,
+   "pct6m": 40.0,
+   "ma50_dev": -3.56,
+   "ma200_dev": 2.05
+  },
+  "SPY": {
+   "last": 761.28,
+   "d1": -0.18,
+   "d5": -0.77,
+   "d20": -0.26,
+   "pct6m": 73.0,
+   "ma50_dev": -0.03,
+   "ma200_dev": 6.24
+  },
+  "IWM": {
+   "last": 278.77,
+   "d1": 0.31,
+   "d5": -1.03,
+   "d20": -4.94,
+   "pct6m": 21.0,
+   "ma50_dev": -4.6,
+   "ma200_dev": 1.38
+  },
+  "QQQ": {
+   "last": 738.24,
+   "d1": -0.21,
+   "d5": -0.39,
+   "d20": 4.2,
+   "pct6m": 90.0,
+   "ma50_dev": 3.25,
+   "ma200_dev": 10.76
+  },
+  "GLD": {
+   "last": 381.5,
+   "d1": 0.17,
+   "d5": -2.6,
+   "d20": -5.28,
+   "pct6m": 25.0,
+   "ma50_dev": -3.68,
+   "ma200_dev": -8.34
+  },
+  "USO": {
+   "last": 148.22,
+   "d1": 1.76,
+   "d5": -3.18,
+   "d20": 5.01,
+   "pct6m": 87.0,
+   "ma50_dev": 8.05,
+   "ma200_dev": 29.15
+  },
+  "TLT": {
+   "last": 77.77,
+   "d1": -0.01,
+   "d5": -2.08,
+   "d20": -5.1,
+   "pct6m": 0.0,
+   "ma50_dev": -4.65,
+   "ma200_dev": -7.52
+  },
+  "VVIX": {
+   "last": 93.91,
+   "d1": 4.95,
+   "d5": 3.69,
+   "d20": 8.88,
+   "pct6m": 58.0,
+   "ma50_dev": 3.25,
+   "ma200_dev": -4.57
+  },
+  "SKEW": {
+   "last": 141.92,
+   "d1": -1.84,
+   "d5": -2.89,
+   "d20": -4.9,
+   "pct6m": 37.0,
+   "ma50_dev": -1.22,
+   "ma200_dev": -1.9
+  }
+ },
+ "ratios": {
+  "VIX/VIX3M": {
+   "last": 0.8944,
+   "d5": 5.19,
+   "d20": 4.33,
+   "pct6m": 79.0,
+   "vs_ma20": 4.32
+  },
+  "HYG/IEF": {
+   "last": 0.8592,
+   "d5": -1.07,
+   "d20": 0.11,
+   "pct6m": 87.0,
+   "vs_ma20": -0.44
+  },
+  "RSP/SPY": {
+   "last": 0.2737,
+   "d5": -0.15,
+   "d20": -4.09,
+   "pct6m": 3.0,
+   "vs_ma20": -1.63
+  },
+  "IWM/SPY": {
+   "last": 0.3662,
+   "d5": -0.26,
+   "d20": -4.69,
+   "pct6m": 3.0,
+   "vs_ma20": -1.99
+  },
+  "QQQ/SPY": {
+   "last": 0.9697,
+   "d5": 0.39,
+   "d20": 4.47,
+   "pct6m": 80.0,
+   "vs_ma20": 2.1
+  },
+  "10Y-3M(bp)": {
+   "last": 124.0
+  },
+  "30Y-10Y(bp)": {
+   "last": 36.0
+  }
+ },
+ "breadth": {
+  "n": 168,
+  "pct_above_ma20": 40.0,
+  "pct_above_ma50": 45.0,
+  "pct_above_ma200": 53.0,
+  "pct_above_ma50_5d_ago": 51.0,
+  "new_20d_highs": 5,
+  "new_20d_lows": 15,
+  "advancers": 87,
+  "decliners": 81
+ },
+ "regime": {
+  "label": "中性",
+  "why": [
+   "VIX 16.8",
+   "VIX/VIX3M 0.89 正常陡峭",
+   "HYG/IEF 20日 +0.1%",
+   "池内 45% 在MA50上方",
+   "30Y 5.60% 长端压力"
+  ]
+ },
+ "short_interest": {
+  "_stamp": "2026-10-01",
+  "GOOGL": {
+   "spf": 0.0149,
+   "short_ratio": 3.68,
+   "shares_short": 87393404,
+   "shares_short_prior": 72705550,
+   "date": 1789430400,
+   "float": 10879441100,
+   "chg_vs_prior": 20.2
+  },
+  "AMZN": {
+   "spf": 0.0083,
+   "short_ratio": 2.51,
+   "shares_short": 81440414,
+   "shares_short_prior": 95300129,
+   "date": 1789430400,
+   "float": 9810475783,
+   "chg_vs_prior": -14.5
+  },
+  "META": {
+   "spf": 0.014099999,
+   "short_ratio": 1.68,
+   "shares_short": 30990107,
+   "shares_short_prior": 28048106,
+   "date": 1789430400,
+   "float": 2201809630,
+   "chg_vs_prior": 10.5
+  },
+  "MSFT": {
+   "spf": 0.0091,
+   "short_ratio": 3.21,
+   "shares_short": 67346414,
+   "shares_short_prior": 68544953,
+   "date": 1789430400,
+   "float": 7414407173,
+   "chg_vs_prior": -1.7
+  },
+  "AAPL": {
+   "spf": 0.0088,
+   "short_ratio": 3.03,
+   "shares_short": 128753092,
+   "shares_short_prior": 116327753,
+   "date": 1789430400,
+   "float": 14569078010,
+   "chg_vs_prior": 10.7
+  },
+  "TSLA": {
+   "spf": 0.0195,
+   "short_ratio": 1.79,
+   "shares_short": 68862357,
+   "shares_short_prior": 69196896,
+   "date": 1789430400,
+   "float": 2819186930,
+   "chg_vs_prior": -0.5
+  },
+  "PONY": {
+   "spf": 0.0674,
+   "short_ratio": 5.97,
+   "shares_short": 23567881,
+   "shares_short_prior": 21696903,
+   "date": 1789430400,
+   "float": 277637476,
+   "chg_vs_prior": 8.6
+  },
+  "UBER": {
+   "spf": 0.0232,
+   "short_ratio": 2.64,
+   "shares_short": 45718444,
+   "shares_short_prior": 46397214,
+   "date": 1789430400,
+   "float": 2035880949,
+   "chg_vs_prior": -1.5
+  },
+  "GRAB": {
+   "spf": 0.0619,
+   "short_ratio": 4.69,
+   "shares_short": 212825650,
+   "shares_short_prior": 237744536,
+   "date": 1789430400,
+   "float": 2998810540,
+   "chg_vs_prior": -10.5
+  },
+  "SERV": {
+   "spf": 0.3859,
+   "short_ratio": 8.51,
+   "shares_short": 32083311,
+   "shares_short_prior": 27166256,
+   "date": 1789430400,
+   "float": 82734399,
+   "chg_vs_prior": 18.1
+  },
+  "PATH": {
+   "spf": 0.2574,
+   "short_ratio": 1.58,
+   "shares_short": 104204345,
+   "shares_short_prior": 117881355,
+   "date": 1789430400,
+   "float": 388484877,
+   "chg_vs_prior": -11.6
+  },
+  "ISRG": {
+   "spf": 0.0231,
+   "short_ratio": 3.58,
+   "shares_short": 8117017,
+   "shares_short_prior": 7069998,
+   "date": 1789430400,
+   "float": 351214894,
+   "chg_vs_prior": 14.8
+  },
+  "NVDA": {
+   "spf": 0.0127,
+   "short_ratio": 2.29,
+   "shares_short": 294225803,
+   "shares_short_prior": 285956804,
+   "date": 1789430400,
+   "float": 23132626000,
+   "chg_vs_prior": 2.9
+  },
+  "AMD": {
+   "spf": 0.024600001,
+   "short_ratio": 2.23,
+   "shares_short": 39975696,
+   "shares_short_prior": 40065798,
+   "date": 1789430400,
+   "float": 1623529079,
+   "chg_vs_prior": -0.2
+  },
+  "AVGO": {
+   "spf": 0.0111,
+   "short_ratio": 2.01,
+   "shares_short": 51922175,
+   "shares_short_prior": 56209128,
+   "date": 1789430400,
+   "float": 4715677998,
+   "chg_vs_prior": -7.6
+  },
+  "TSM": {
+   "spf": 0.0057,
+   "short_ratio": 2.88,
+   "shares_short": 27789695,
+   "shares_short_prior": 30161233,
+   "date": 1789430400,
+   "float": 37843003812,
+   "chg_vs_prior": -7.9
+  },
+  "ARM": {
+   "spf": 0.1069,
+   "short_ratio": 3.93,
+   "shares_short": 15521694,
+   "shares_short_prior": 18264105,
+   "date": 1789430400,
+   "float": 142599360,
+   "chg_vs_prior": -15.0
+  },
+  "MRVL": {
+   "spf": 0.0418,
+   "short_ratio": 1.31,
+   "shares_short": 31342713,
+   "shares_short_prior": 28388438,
+   "date": 1789430400,
+   "float": 873865926,
+   "chg_vs_prior": 10.4
+  },
+  "MU": {
+   "spf": 0.024500001,
+   "short_ratio": 1.07,
+   "shares_short": 27633780,
+   "shares_short_prior": 30016025,
+   "date": 1789430400,
+   "float": 1125541920,
+   "chg_vs_prior": -7.9
+  },
+  "INTC": {
+   "spf": 0.0301,
+   "short_ratio": 1.74,
+   "shares_short": 158808750,
+   "shares_short_prior": 135685200,
+   "date": 1789430400,
+   "float": 4619496960,
+   "chg_vs_prior": 17.0
+  },
+  "ASML": {
+   "spf": 0.0038,
+   "short_ratio": 1.24,
+   "shares_short": 1477623,
+   "shares_short_prior": 1352364,
+   "date": 1789430400,
+   "float": 21331633667,
+   "chg_vs_prior": 9.3
+  },
+  "QCOM": {
+   "spf": 0.0401,
+   "short_ratio": 3.34,
+   "shares_short": 38316643,
+   "shares_short_prior": 33274306,
+   "date": 1789430400,
+   "float": 1048459026,
+   "chg_vs_prior": 15.2
+  },
+  "AMAT": {
+   "spf": 0.0178,
+   "short_ratio": 2.2,
+   "shares_short": 14108387,
+   "shares_short_prior": 11875178,
+   "date": 1789430400,
+   "float": 790486541,
+   "chg_vs_prior": 18.8
+  },
+  "LRCX": {
+   "spf": 0.0233,
+   "short_ratio": 3.27,
+   "shares_short": 26081081,
+   "shares_short_prior": 28419138,
+   "date": 1789430400,
+   "float": 1246490901,
+   "chg_vs_prior": -8.2
+  },
+  "KLAC": {
+   "spf": 0.0202,
+   "short_ratio": 2.55,
+   "shares_short": 23554039,
+   "shares_short_prior": 25337831,
+   "date": 1789430400,
+   "float": 1303476398,
+   "chg_vs_prior": -7.0
+  },
+  "COHR": {
+   "spf": 0.060900003,
+   "short_ratio": 1.66,
+   "shares_short": 10178444,
+   "shares_short_prior": 10032446,
+   "date": 1789430400,
+   "float": 195078292,
+   "chg_vs_prior": 1.5
+  },
+  "CRWV": {
+   "spf": 0.17639999,
+   "short_ratio": 2.47,
+   "shares_short": 54939326,
+   "shares_short_prior": 58859603,
+   "date": 1789430400,
+   "float": 328296647,
+   "chg_vs_prior": -6.7
+  },
+  "ORCL": {
+   "spf": 0.0273,
+   "short_ratio": 1.82,
+   "shares_short": 50840436,
+   "shares_short_prior": 47767442,
+   "date": 1789430400,
+   "float": 1859295266,
+   "chg_vs_prior": 6.4
+  },
+  "IREN": {
+   "spf": 0.2171,
+   "short_ratio": 2.0,
+   "shares_short": 83089334,
+   "shares_short_prior": 94246133,
+   "date": 1789430400,
+   "float": 346180522,
+   "chg_vs_prior": -11.8
+  },
+  "NBIS": {
+   "spf": 0.1981,
+   "short_ratio": 2.76,
+   "shares_short": 46779540,
+   "shares_short_prior": 55355915,
+   "date": 1789430400,
+   "float": 228614878,
+   "chg_vs_prior": -15.5
+  },
+  "CIFR": {
+   "spf": 0.2134,
+   "short_ratio": 2.13,
+   "shares_short": 72813591,
+   "shares_short_prior": 65492692,
+   "date": 1789430400,
+   "float": 343105898,
+   "chg_vs_prior": 11.2
+  },
+  "APLD": {
+   "spf": 0.221,
+   "short_ratio": 3.9,
+   "shares_short": 57863931,
+   "shares_short_prior": 55733587,
+   "date": 1789430400,
+   "float": 250678010,
+   "chg_vs_prior": 3.8
+  },
+  "CSCO": {
+   "spf": 0.0146,
+   "short_ratio": 3.96,
+   "shares_short": 57677354,
+   "shares_short_prior": 58942738,
+   "date": 1789430400,
+   "float": 3936042179,
+   "chg_vs_prior": -2.1
+  },
+  "ALAB": {
+   "spf": 0.0657,
+   "short_ratio": 2.42,
+   "shares_short": 8685910,
+   "shares_short_prior": 8753228,
+   "date": 1789430400,
+   "float": 155983927,
+   "chg_vs_prior": -0.8
+  },
+  "ANET": {
+   "spf": 0.0127,
+   "short_ratio": 2.62,
+   "shares_short": 13245323,
+   "shares_short_prior": 12873977,
+   "date": 1789430400,
+   "float": 1049792948,
+   "chg_vs_prior": 2.9
+  },
+  "DELL": {
+   "spf": 0.0468,
+   "short_ratio": 1.5,
+   "shares_short": 13693224,
+   "shares_short_prior": 14013370,
+   "date": 1789430400,
+   "float": 292168675,
+   "chg_vs_prior": -2.3
+  },
+  "SMCI": {
+   "spf": 0.1882,
+   "short_ratio": 2.47,
+   "shares_short": 95156102,
+   "shares_short_prior": 91222919,
+   "date": 1789430400,
+   "float": 557625648,
+   "chg_vs_prior": 4.3
+  },
+  "CRDO": {
+   "spf": 0.0514,
+   "short_ratio": 1.15,
+   "shares_short": 8607757,
+   "shares_short_prior": 6126151,
+   "date": 1789430400,
+   "float": 170885884,
+   "chg_vs_prior": 40.5
+  },
+  "EQIX": {
+   "spf": 0.0197,
+   "short_ratio": 3.2,
+   "shares_short": 1696093,
+   "shares_short_prior": 1655729,
+   "date": 1789430400,
+   "float": 98291800,
+   "chg_vs_prior": 2.4
+  },
+  "VRT": {
+   "spf": 0.0368,
+   "short_ratio": 2.72,
+   "shares_short": 14150447,
+   "shares_short_prior": 13058621,
+   "date": 1789430400,
+   "float": 383848608,
+   "chg_vs_prior": 8.4
+  },
+  "GEV": {
+   "spf": 0.032899998,
+   "short_ratio": 4.2,
+   "shares_short": 8757218,
+   "shares_short_prior": 7936921,
+   "date": 1789430400,
+   "float": 265776944,
+   "chg_vs_prior": 10.3
+  },
+  "ETN": {
+   "spf": 0.02,
+   "short_ratio": 4.15,
+   "shares_short": 7755755,
+   "shares_short_prior": 6406253,
+   "date": 1789430400,
+   "float": 387716416,
+   "chg_vs_prior": 21.1
+  },
+  "DLR": {
+   "spf": 0.0,
+   "short_ratio": 0.0,
+   "shares_short": 5347,
+   "shares_short_prior": 18916,
+   "date": 1789430400,
+   "float": 350390955,
+   "chg_vs_prior": -71.7
+  },
+  "OKLO": {
+   "spf": 0.2052,
+   "short_ratio": 3.43,
+   "shares_short": 33649294,
+   "shares_short_prior": 25996552,
+   "date": 1789430400,
+   "float": 149507966,
+   "chg_vs_prior": 29.4
+  },
+  "LAC": {
+   "spf": 0.09729999,
+   "short_ratio": 3.57,
+   "shares_short": 35163844,
+   "shares_short_prior": 31479970,
+   "date": 1789430400,
+   "float": 346263098,
+   "chg_vs_prior": 11.7
+  },
+  "MP": {
+   "spf": 0.205,
+   "short_ratio": 6.43,
+   "shares_short": 33572608,
+   "shares_short_prior": 29204644,
+   "date": 1789430400,
+   "float": 144321060,
+   "chg_vs_prior": 15.0
+  },
+  "SMR": {
+   "spf": 0.20639999,
+   "short_ratio": 2.08,
+   "shares_short": 76104359,
+   "shares_short_prior": 67833225,
+   "date": 1789430400,
+   "float": 403544225,
+   "chg_vs_prior": 12.2
+  },
+  "BE": {
+   "spf": 0.0734,
+   "short_ratio": 1.46,
+   "shares_short": 18994065,
+   "shares_short_prior": 18260304,
+   "date": 1789430400,
+   "float": 289296540,
+   "chg_vs_prior": 4.0
+  },
+  "QS": {
+   "spf": 0.1936,
+   "short_ratio": 6.91,
+   "shares_short": 97844554,
+   "shares_short_prior": 97414052,
+   "date": 1789430400,
+   "float": 512143075,
+   "chg_vs_prior": 0.4
+  },
+  "EOSE": {
+   "spf": 0.3328,
+   "short_ratio": 4.64,
+   "shares_short": 120015346,
+   "shares_short_prior": 112753376,
+   "date": 1789430400,
+   "float": 356877106,
+   "chg_vs_prior": 6.4
+  },
+  "USAR": {
+   "spf": 0.1043,
+   "short_ratio": 3.06,
+   "shares_short": 39049732,
+   "shares_short_prior": 28420137,
+   "date": 1789430400,
+   "float": 164809198,
+   "chg_vs_prior": 37.4
+  },
+  "FCX": {
+   "spf": 0.024,
+   "short_ratio": 2.34,
+   "shares_short": 34304914,
+   "shares_short_prior": 25984513,
+   "date": 1789430400,
+   "float": 1426353125,
+   "chg_vs_prior": 32.0
+  },
+  "PLTR": {
+   "spf": 0.027999999,
+   "short_ratio": 2.08,
+   "shares_short": 60184903,
+   "shares_short_prior": 68278633,
+   "date": 1789430400,
+   "float": 2109957437,
+   "chg_vs_prior": -11.9
+  },
+  "SNOW": {
+   "spf": 0.0545,
+   "short_ratio": 3.5,
+   "shares_short": 18775604,
+   "shares_short_prior": 18813753,
+   "date": 1789430400,
+   "float": 343125711,
+   "chg_vs_prior": -0.2
+  },
+  "AI": {
+   "spf": 0.2858,
+   "short_ratio": 7.92,
+   "shares_short": 42395077,
+   "shares_short_prior": 48144524,
+   "date": 1789430400,
+   "float": 144209884,
+   "chg_vs_prior": -11.9
+  },
+  "IBM": {
+   "spf": 0.026500002,
+   "short_ratio": 4.58,
+   "shares_short": 22444940,
+   "shares_short_prior": 22050277,
+   "date": 1789430400,
+   "float": 940193593,
+   "chg_vs_prior": 1.8
+  },
+  "MDB": {
+   "spf": 0.0367,
+   "short_ratio": 1.49,
+   "shares_short": 2879053,
+   "shares_short_prior": 2839284,
+   "date": 1789430400,
+   "float": 78453820,
+   "chg_vs_prior": 1.4
+  },
+  "NOW": {
+   "spf": 0.0279,
+   "short_ratio": 1.72,
+   "shares_short": 28766356,
+   "shares_short_prior": 29199178,
+   "date": 1789430400,
+   "float": 1031298022,
+   "chg_vs_prior": -1.5
+  },
+  "CRM": {
+   "spf": 0.0454,
+   "short_ratio": 1.97,
+   "shares_short": 32348247,
+   "shares_short_prior": 26502629,
+   "date": 1789430400,
+   "float": 797536380,
+   "chg_vs_prior": 22.1
+  },
+  "ADBE": {
+   "spf": 0.0521,
+   "short_ratio": 3.63,
+   "shares_short": 18496677,
+   "shares_short_prior": 17970237,
+   "date": 1789430400,
+   "float": 388051860,
+   "chg_vs_prior": 2.9
+  },
+  "OKTA": {
+   "spf": 0.054899998,
+   "short_ratio": 1.93,
+   "shares_short": 8205342,
+   "shares_short_prior": 6449812,
+   "date": 1789430400,
+   "float": 166726719,
+   "chg_vs_prior": 27.2
+  },
+  "SHOP": {
+   "spf": 0.0136,
+   "short_ratio": 2.14,
+   "shares_short": 16447162,
+   "shares_short_prior": 15388800,
+   "date": 1789430400,
+   "float": 1205868426,
+   "chg_vs_prior": 6.9
+  },
+  "SOUN": {
+   "spf": 0.4047,
+   "short_ratio": 6.72,
+   "shares_short": 165088496,
+   "shares_short_prior": 162586012,
+   "date": 1789430400,
+   "float": 401066718,
+   "chg_vs_prior": 1.5
+  },
+  "BBAI": {
+   "spf": 0.3149,
+   "short_ratio": 9.03,
+   "shares_short": 150124548,
+   "shares_short_prior": 146343143,
+   "date": 1789430400,
+   "float": 475250967,
+   "chg_vs_prior": 2.6
+  },
+  "UPST": {
+   "spf": 0.325,
+   "short_ratio": 6.64,
+   "shares_short": 27649788,
+   "shares_short_prior": 24779256,
+   "date": 1789430400,
+   "float": 83666838,
+   "chg_vs_prior": 11.6
+  },
+  "DUOL": {
+   "spf": 0.1872,
+   "short_ratio": 5.46,
+   "shares_short": 6573989,
+   "shares_short_prior": 7091179,
+   "date": 1789430400,
+   "float": 39972785,
+   "chg_vs_prior": -7.3
+  },
+  "RBRK": {
+   "spf": 0.0832,
+   "short_ratio": 3.66,
+   "shares_short": 13722476,
+   "shares_short_prior": 14973029,
+   "date": 1789430400,
+   "float": 163814036,
+   "chg_vs_prior": -8.4
+  },
+  "DDOG": {
+   "spf": 0.0353,
+   "short_ratio": 2.77,
+   "shares_short": 10267560,
+   "shares_short_prior": 9245979,
+   "date": 1789430400,
+   "float": 333020540,
+   "chg_vs_prior": 11.0
+  },
+  "NFLX": {
+   "spf": 0.0228,
+   "short_ratio": 3.44,
+   "shares_short": 94187131,
+   "shares_short_prior": 90512500,
+   "date": 1789430400,
+   "float": 4134708819,
+   "chg_vs_prior": 4.1
+  },
+  "ZETA": {
+   "spf": 0.08,
+   "short_ratio": 2.76,
+   "shares_short": 17992417,
+   "shares_short_prior": 23180986,
+   "date": 1789430400,
+   "float": 222124449,
+   "chg_vs_prior": -22.4
+  },
+  "SPOT": {
+   "spf": 0.0286,
+   "short_ratio": 2.85,
+   "shares_short": 4522956,
+   "shares_short_prior": 4928432,
+   "date": 1789430400,
+   "float": 157084835,
+   "chg_vs_prior": -8.2
+  },
+  "APP": {
+   "spf": 0.0376,
+   "short_ratio": 2.36,
+   "shares_short": 10944088,
+   "shares_short_prior": 11372027,
+   "date": 1789430400,
+   "float": 253431202,
+   "chg_vs_prior": -3.8
+  },
+  "RDDT": {
+   "spf": 0.1369,
+   "short_ratio": 3.16,
+   "shares_short": 19850104,
+   "shares_short_prior": 16877691,
+   "date": 1789430400,
+   "float": 140697644,
+   "chg_vs_prior": 17.6
+  },
+  "TTD": {
+   "spf": 0.2417,
+   "short_ratio": 5.05,
+   "shares_short": 88527735,
+   "shares_short_prior": 83623628,
+   "date": 1789430400,
+   "float": 416515900,
+   "chg_vs_prior": 5.9
+  },
+  "RBLX": {
+   "spf": 0.0376,
+   "short_ratio": 2.36,
+   "shares_short": 24288353,
+   "shares_short_prior": 13884449,
+   "date": 1789430400,
+   "float": 643145516,
+   "chg_vs_prior": 74.9
+  },
+  "U": {
+   "spf": 0.0665,
+   "short_ratio": 3.15,
+   "shares_short": 29118666,
+   "shares_short_prior": 31055095,
+   "date": 1789430400,
+   "float": 369591087,
+   "chg_vs_prior": -6.2
+  },
+  "INFY": {
+   "spf": 0.0357,
+   "short_ratio": 7.91,
+   "shares_short": 125119659,
+   "shares_short_prior": 130346565,
+   "date": 1789430400,
+   "float": 7773943078,
+   "chg_vs_prior": -4.0
+  },
+  "WOLF": {
+   "spf": null,
+   "short_ratio": 7.69,
+   "shares_short": 24640211,
+   "shares_short_prior": 24000616,
+   "date": 1789430400,
+   "float": 31561408,
+   "chg_vs_prior": 2.7
+  },
+  "SNPS": {
+   "spf": 0.0299,
+   "short_ratio": 2.98,
+   "shares_short": 5712575,
+   "shares_short_prior": 4357355,
+   "date": 1789430400,
+   "float": 190523237,
+   "chg_vs_prior": 31.1
+  },
+  "CRWD": {
+   "spf": 0.0277,
+   "short_ratio": 2.41,
+   "shares_short": 27929552,
+   "shares_short_prior": 24164922,
+   "date": 1789430400,
+   "float": 1007183268,
+   "chg_vs_prior": 15.6
+  },
+  "PANW": {
+   "spf": 0.0269,
+   "short_ratio": 3.39,
+   "shares_short": 21871670,
+   "shares_short_prior": 22414335,
+   "date": 1789430400,
+   "float": 811259680,
+   "chg_vs_prior": -2.4
+  },
+  "ZS": {
+   "spf": 0.061,
+   "short_ratio": 1.96,
+   "shares_short": 6501392,
+   "shares_short_prior": 6229864,
+   "date": 1789430400,
+   "float": 106458412,
+   "chg_vs_prior": 4.4
+  },
+  "DOCN": {
+   "spf": 0.0921,
+   "short_ratio": 3.7,
+   "shares_short": 8703114,
+   "shares_short_prior": 8257588,
+   "date": 1789430400,
+   "float": 97720364,
+   "chg_vs_prior": 5.4
+  },
+  "NET": {
+   "spf": 0.0271,
+   "short_ratio": 2.51,
+   "shares_short": 7703439,
+   "shares_short_prior": 7432334,
+   "date": 1789430400,
+   "float": 320457500,
+   "chg_vs_prior": 3.6
+  },
+  "MNDY": {
+   "spf": 0.1714,
+   "short_ratio": 5.12,
+   "shares_short": 6075397,
+   "shares_short_prior": 5476956,
+   "date": 1789430400,
+   "float": 33065125,
+   "chg_vs_prior": 10.9
+  },
+  "DT": {
+   "spf": 0.0509,
+   "short_ratio": 1.95,
+   "shares_short": 13028345,
+   "shares_short_prior": 9198695,
+   "date": 1789430400,
+   "float": 287071594,
+   "chg_vs_prior": 41.6
+  },
+  "ESTC": {
+   "spf": 0.045900002,
+   "short_ratio": 1.37,
+   "shares_short": 4219506,
+   "shares_short_prior": 6338244,
+   "date": 1789430400,
+   "float": 86673451,
+   "chg_vs_prior": -33.4
+  },
+  "KTOS": {
+   "spf": 0.0616,
+   "short_ratio": 3.12,
+   "shares_short": 10060571,
+   "shares_short_prior": 8326323,
+   "date": 1789430400,
+   "float": 185271564,
+   "chg_vs_prior": 20.8
+  },
+  "TEAM": {
+   "spf": 0.060900003,
+   "short_ratio": 2.53,
+   "shares_short": 9654255,
+   "shares_short_prior": 11745304,
+   "date": 1789430400,
+   "float": 156867592,
+   "chg_vs_prior": -17.8
+  },
+  "WDAY": {
+   "spf": 0.083100006,
+   "short_ratio": 3.83,
+   "shares_short": 14145081,
+   "shares_short_prior": 20124869,
+   "date": 1789430400,
+   "float": 194315890,
+   "chg_vs_prior": -29.7
+  },
+  "INTU": {
+   "spf": 0.030199999,
+   "short_ratio": 1.77,
+   "shares_short": 7016125,
+   "shares_short_prior": 9158101,
+   "date": 1789430400,
+   "float": 260873111,
+   "chg_vs_prior": -23.4
+  },
+  "UNH": {
+   "spf": 0.0164,
+   "short_ratio": 2.78,
+   "shares_short": 13216124,
+   "shares_short_prior": 15461857,
+   "date": 1789430400,
+   "float": 895018750,
+   "chg_vs_prior": -14.5
+  },
+  "OSCR": {
+   "spf": 0.070300005,
+   "short_ratio": 3.71,
+   "shares_short": 17770151,
+   "shares_short_prior": 16438924,
+   "date": 1789430400,
+   "float": 262758826,
+   "chg_vs_prior": 8.1
+  },
+  "HIMS": {
+   "spf": 0.2726,
+   "short_ratio": 4.92,
+   "shares_short": 52920443,
+   "shares_short_prior": 58674597,
+   "date": 1789430400,
+   "float": 213743084,
+   "chg_vs_prior": -9.8
+  },
+  "RXRX": {
+   "spf": 0.3495,
+   "short_ratio": 11.32,
+   "shares_short": 178724433,
+   "shares_short_prior": 177923359,
+   "date": 1789430400,
+   "float": 518468185,
+   "chg_vs_prior": 0.5
+  },
+  "LLY": {
+   "spf": 0.0084,
+   "short_ratio": 3.09,
+   "shares_short": 7519918,
+   "shares_short_prior": 6564742,
+   "date": 1789430400,
+   "float": 888950401,
+   "chg_vs_prior": 14.6
+  },
+  "TEM": {
+   "spf": 0.2778,
+   "short_ratio": 3.48,
+   "shares_short": 28059350,
+   "shares_short_prior": 29871832,
+   "date": 1789430400,
+   "float": 116299222,
+   "chg_vs_prior": -6.1
+  },
+  "CRSP": {
+   "spf": 0.2258,
+   "short_ratio": 12.81,
+   "shares_short": 19071093,
+   "shares_short_prior": 18744855,
+   "date": 1789430400,
+   "float": 96257536,
+   "chg_vs_prior": 1.7
+  },
+  "TMDX": {
+   "spf": 0.35819998,
+   "short_ratio": 11.43,
+   "shares_short": 7977125,
+   "shares_short_prior": 7910244,
+   "date": 1789430400,
+   "float": 33559299,
+   "chg_vs_prior": 0.8
+  },
+  "RKLB": {
+   "spf": 0.0731,
+   "short_ratio": 2.61,
+   "shares_short": 43482976,
+   "shares_short_prior": 44395701,
+   "date": 1789430400,
+   "float": 556860860,
+   "chg_vs_prior": -2.1
+  },
+  "FLY": {
+   "spf": 0.1096,
+   "short_ratio": 4.8,
+   "shares_short": 11105681,
+   "shares_short_prior": 11126799,
+   "date": 1789430400,
+   "float": 106991657,
+   "chg_vs_prior": -0.2
+  },
+  "JOBY": {
+   "spf": 0.1859,
+   "short_ratio": 4.89,
+   "shares_short": 124304655,
+   "shares_short_prior": 102159688,
+   "date": 1789430400,
+   "float": 669656891,
+   "chg_vs_prior": 21.7
+  },
+  "ACHR": {
+   "spf": 0.141,
+   "short_ratio": 3.81,
+   "shares_short": 94442010,
+   "shares_short_prior": 91996566,
+   "date": 1789430400,
+   "float": 653010983,
+   "chg_vs_prior": 2.7
+  },
+  "LUNR": {
+   "spf": 0.277,
+   "short_ratio": 5.13,
+   "shares_short": 36325445,
+   "shares_short_prior": 35532485,
+   "date": 1789430400,
+   "float": 131614245,
+   "chg_vs_prior": 2.2
+  },
+  "ASTS": {
+   "spf": 0.2184,
+   "short_ratio": 7.02,
+   "shares_short": 65261118,
+   "shares_short_prior": 57475212,
+   "date": 1789430400,
+   "float": 266491707,
+   "chg_vs_prior": 13.5
+  },
+  "ONDS": {
+   "spf": 0.4096,
+   "short_ratio": 3.83,
+   "shares_short": 237104698,
+   "shares_short_prior": 230511508,
+   "date": 1789430400,
+   "float": 533409384,
+   "chg_vs_prior": 2.9
+  },
+  "BABA": {
+   "spf": 0.0168,
+   "short_ratio": 3.37,
+   "shares_short": 41044240,
+   "shares_short_prior": 41983108,
+   "date": 1789430400,
+   "float": 2219678496,
+   "chg_vs_prior": -2.2
+  },
+  "BIDU": {
+   "spf": 0.0337,
+   "short_ratio": 2.58,
+   "shares_short": 9000728,
+   "shares_short_prior": 10894402,
+   "date": 1789430400,
+   "float": 267383318,
+   "chg_vs_prior": -17.4
+  },
+  "JD": {
+   "spf": 0.0178,
+   "short_ratio": 3.85,
+   "shares_short": 23784747,
+   "shares_short_prior": 22752370,
+   "date": 1789430400,
+   "float": 1173177600,
+   "chg_vs_prior": 4.5
+  },
+  "XPEV": {
+   "spf": 0.06,
+   "short_ratio": 5.49,
+   "shares_short": 45461636,
+   "shares_short_prior": 45205618,
+   "date": 1789430400,
+   "float": 710214664,
+   "chg_vs_prior": 0.6
+  },
+  "NIO": {
+   "spf": 0.0728,
+   "short_ratio": 3.52,
+   "shares_short": 138896179,
+   "shares_short_prior": 123779605,
+   "date": 1789430400,
+   "float": 1898996284,
+   "chg_vs_prior": 12.2
+  },
+  "PDD": {
+   "spf": 0.0328,
+   "short_ratio": 3.88,
+   "shares_short": 28248886,
+   "shares_short_prior": 30134634,
+   "date": 1789430400,
+   "float": 753947663,
+   "chg_vs_prior": -6.3
+  },
+  "FUTU": {
+   "spf": 0.0759,
+   "short_ratio": 3.25,
+   "shares_short": 4574882,
+   "shares_short_prior": 5516047,
+   "date": 1789430400,
+   "float": 59577400,
+   "chg_vs_prior": -17.1
+  },
+  "TCEHY": {
+   "spf": null,
+   "short_ratio": null,
+   "shares_short": null,
+   "shares_short_prior": null,
+   "date": null,
+   "float": 6211120023
+  },
+  "BMNR": {
+   "spf": 0.0674,
+   "short_ratio": 0.86,
+   "shares_short": 40591937,
+   "shares_short_prior": 48201938,
+   "date": 1789430400,
+   "float": 594473579,
+   "chg_vs_prior": -15.8
+  },
+  "MSTR": {
+   "spf": 0.081499994,
+   "short_ratio": 1.09,
+   "shares_short": 30741182,
+   "shares_short_prior": 31879835,
+   "date": 1789430400,
+   "float": 363631251,
+   "chg_vs_prior": -3.6
+  },
+  "COIN": {
+   "spf": 0.114700004,
+   "short_ratio": 2.39,
+   "shares_short": 25234463,
+   "shares_short_prior": 22918131,
+   "date": 1789430400,
+   "float": 219789349,
+   "chg_vs_prior": 10.1
+  },
+  "HOOD": {
+   "spf": 0.0462,
+   "short_ratio": 1.6,
+   "shares_short": 36165147,
+   "shares_short_prior": 33137696,
+   "date": 1789430400,
+   "float": 784260476,
+   "chg_vs_prior": 9.1
+  },
+  "CLSK": {
+   "spf": 0.42810002,
+   "short_ratio": 4.32,
+   "shares_short": 78577506,
+   "shares_short_prior": 73687226,
+   "date": 1789430400,
+   "float": 246659958,
+   "chg_vs_prior": 6.6
+  },
+  "RIOT": {
+   "spf": 0.1478,
+   "short_ratio": 3.2,
+   "shares_short": 51105102,
+   "shares_short_prior": 50048851,
+   "date": 1789430400,
+   "float": 349140913,
+   "chg_vs_prior": 2.1
+  },
+  "MARA": {
+   "spf": 0.3098,
+   "short_ratio": 2.04,
+   "shares_short": 104599144,
+   "shares_short_prior": 110304172,
+   "date": 1789430400,
+   "float": 378322217,
+   "chg_vs_prior": -5.2
+  },
+  "SBET": {
+   "spf": 0.14130001,
+   "short_ratio": 3.11,
+   "shares_short": 30624402,
+   "shares_short_prior": 38993459,
+   "date": 1789430400,
+   "float": 190116270,
+   "chg_vs_prior": -21.5
+  },
+  "HUT": {
+   "spf": 0.1479,
+   "short_ratio": 3.43,
+   "shares_short": 16673146,
+   "shares_short_prior": 13492031,
+   "date": 1789430400,
+   "float": 103016566,
+   "chg_vs_prior": 23.6
+  },
+  "FIG": {
+   "spf": 0.1776,
+   "short_ratio": 2.45,
+   "shares_short": 35441815,
+   "shares_short_prior": 42243261,
+   "date": 1789430400,
+   "float": 266174467,
+   "chg_vs_prior": -16.1
+  },
+  "CRCL": {
+   "spf": 0.0958,
+   "short_ratio": 1.39,
+   "shares_short": 22038915,
+   "shares_short_prior": 24440412,
+   "date": 1789430400,
+   "float": 205949192,
+   "chg_vs_prior": -9.8
+  },
+  "XYZ": {
+   "spf": 0.028800001,
+   "short_ratio": 3.43,
+   "shares_short": 13406927,
+   "shares_short_prior": 13659453,
+   "date": 1789430400,
+   "float": 536047323,
+   "chg_vs_prior": -1.8
+  },
+  "BULL": {
+   "spf": 0.0806,
+   "short_ratio": 1.92,
+   "shares_short": 36168205,
+   "shares_short_prior": 27397827,
+   "date": 1789430400,
+   "float": 317418942,
+   "chg_vs_prior": 32.0
+  },
+  "HIVE": {
+   "spf": null,
+   "short_ratio": 2.53,
+   "shares_short": 54103017,
+   "shares_short_prior": 59745550,
+   "date": 1789430400,
+   "float": 271219146,
+   "chg_vs_prior": -9.4
+  },
+  "SOFI": {
+   "spf": 0.14829999,
+   "short_ratio": 4.68,
+   "shares_short": 188982888,
+   "shares_short_prior": 172515246,
+   "date": 1789430400,
+   "float": 1271331417,
+   "chg_vs_prior": 9.5
+  },
+  "OPEN": {
+   "spf": 0.2471,
+   "short_ratio": 6.92,
+   "shares_short": 213896467,
+   "shares_short_prior": 175749515,
+   "date": 1789430400,
+   "float": 953465747,
+   "chg_vs_prior": 21.7
+  },
+  "LMND": {
+   "spf": 0.1533,
+   "short_ratio": 11.73,
+   "shares_short": 10850111,
+   "shares_short_prior": 9984175,
+   "date": 1789430400,
+   "float": 71768333,
+   "chg_vs_prior": 8.7
+  },
+  "PYPL": {
+   "spf": 0.038399998,
+   "short_ratio": 2.38,
+   "shares_short": 29335284,
+   "shares_short_prior": 33728439,
+   "date": 1789430400,
+   "float": 853510423,
+   "chg_vs_prior": -13.0
+  },
+  "AFRM": {
+   "spf": 0.0553,
+   "short_ratio": 2.88,
+   "shares_short": 16282063,
+   "shares_short_prior": 14461742,
+   "date": 1789430400,
+   "float": 283815141,
+   "chg_vs_prior": 12.6
+  },
+  "RGTI": {
+   "spf": 0.1876,
+   "short_ratio": 3.83,
+   "shares_short": 62361304,
+   "shares_short_prior": 58969224,
+   "date": 1789430400,
+   "float": 327964508,
+   "chg_vs_prior": 5.8
+  },
+  "IONQ": {
+   "spf": 0.1004,
+   "short_ratio": 2.22,
+   "shares_short": 40486062,
+   "shares_short_prior": 42363766,
+   "date": 1789430400,
+   "float": 378186707,
+   "chg_vs_prior": -4.4
+  },
+  "QUBT": {
+   "spf": 0.3231,
+   "short_ratio": 9.71,
+   "shares_short": 64702416,
+   "shares_short_prior": 64090029,
+   "date": 1789430400,
+   "float": 200642911,
+   "chg_vs_prior": 1.0
+  },
+  "QBTS": {
+   "spf": 0.2034,
+   "short_ratio": 4.44,
+   "shares_short": 67980668,
+   "shares_short_prior": 66952892,
+   "date": 1789430400,
+   "float": 361992993,
+   "chg_vs_prior": 1.5
+  },
+  "GME": {
+   "spf": 0.084,
+   "short_ratio": 5.27,
+   "shares_short": 39069126,
+   "shares_short_prior": 54036583,
+   "date": 1789430400,
+   "float": 462380202,
+   "chg_vs_prior": -27.7
+  },
+  "LULU": {
+   "spf": 0.13069999,
+   "short_ratio": 1.92,
+   "shares_short": 13779085,
+   "shares_short_prior": 10803949,
+   "date": 1789430400,
+   "float": 101712621,
+   "chg_vs_prior": 27.5
+  },
+  "CMG": {
+   "spf": 0.036,
+   "short_ratio": 3.05,
+   "shares_short": 40240541,
+   "shares_short_prior": 38263380,
+   "date": 1789430400,
+   "float": 1255307310,
+   "chg_vs_prior": 5.2
+  },
+  "UPS": {
+   "spf": 0.0343,
+   "short_ratio": 6.53,
+   "shares_short": 25679543,
+   "shares_short_prior": 26089164,
+   "date": 1789430400,
+   "float": 748466589,
+   "chg_vs_prior": -1.6
+  },
+  "ABNB": {
+   "spf": 0.035,
+   "short_ratio": 3.24,
+   "shares_short": 14488469,
+   "shares_short_prior": 12860433,
+   "date": 1789430400,
+   "float": 405782346,
+   "chg_vs_prior": 12.7
+  },
+  "PTON": {
+   "spf": 0.14649999,
+   "short_ratio": 7.8,
+   "shares_short": 61352768,
+   "shares_short_prior": 61048835,
+   "date": 1789430400,
+   "float": 418407209,
+   "chg_vs_prior": 0.5
+  },
+  "BA": {
+   "spf": 0.0001,
+   "short_ratio": 0.01,
+   "shares_short": 49800,
+   "shares_short_prior": 42665,
+   "date": 1789430400,
+   "float": 758462782,
+   "chg_vs_prior": 16.7
+  },
+  "NKE": {
+   "spf": 0.08979999,
+   "short_ratio": 2.93,
+   "shares_short": 85698150,
+   "shares_short_prior": 68828976,
+   "date": 1789430400,
+   "float": 1176666666,
+   "chg_vs_prior": 24.5
+  },
+  "GLD": {
+   "spf": null,
+   "short_ratio": null,
+   "shares_short": null,
+   "shares_short_prior": null,
+   "date": null,
+   "float": null
+  },
+  "SLV": {
+   "spf": null,
+   "short_ratio": null,
+   "shares_short": null,
+   "shares_short_prior": null,
+   "date": null,
+   "float": null
+  },
+  "CPER": {
+   "spf": null,
+   "short_ratio": null,
+   "shares_short": null,
+   "shares_short_prior": null,
+   "date": null,
+   "float": null
+  },
+  "USO": {
+   "spf": null,
+   "short_ratio": null,
+   "shares_short": null,
+   "shares_short_prior": null,
+   "date": null,
+   "float": null
+  },
+  "JPM": {
+   "spf": 0.0091,
+   "short_ratio": 3.88,
+   "shares_short": 23990561,
+   "shares_short_prior": 25289205,
+   "date": 1789430400,
+   "float": 2643991481,
+   "chg_vs_prior": -5.1
+  },
+  "GS": {
+   "spf": 0.0239,
+   "short_ratio": 3.78,
+   "shares_short": 6921097,
+   "shares_short_prior": 6205407,
+   "date": 1789430400,
+   "float": 301060743,
+   "chg_vs_prior": 11.5
+  },
+  "BRK-B": {
+   "spf": 0.0095999995,
+   "short_ratio": 2.33,
+   "shares_short": 11923610,
+   "shares_short_prior": 11722714,
+   "date": 1774915200,
+   "float": 1233781,
+   "chg_vs_prior": 1.7
+  },
+  "XOM": {
+   "spf": 0.0108,
+   "short_ratio": 2.84,
+   "shares_short": 39711328,
+   "shares_short_prior": 36897721,
+   "date": 1789430400,
+   "float": 4103811493,
+   "chg_vs_prior": 7.6
+  },
+  "CVX": {
+   "spf": 0.0106,
+   "short_ratio": 2.62,
+   "shares_short": 20765075,
+   "shares_short_prior": 15741465,
+   "date": 1789430400,
+   "float": 1868505583,
+   "chg_vs_prior": 31.9
+  },
+  "CAT": {
+   "spf": 0.020299999,
+   "short_ratio": 3.54,
+   "shares_short": 8377107,
+   "shares_short_prior": 6455487,
+   "date": 1789430400,
+   "float": 458222316,
+   "chg_vs_prior": 29.8
+  },
+  "DE": {
+   "spf": 0.0208,
+   "short_ratio": 3.9,
+   "shares_short": 5615614,
+   "shares_short_prior": 5067132,
+   "date": 1789430400,
+   "float": 269080769,
+   "chg_vs_prior": 10.8
+  },
+  "GE": {
+   "spf": 0.0152,
+   "short_ratio": 3.97,
+   "shares_short": 15750663,
+   "shares_short_prior": 13409539,
+   "date": 1789430400,
+   "float": 1033619775,
+   "chg_vs_prior": 17.5
+  },
+  "COST": {
+   "spf": 0.0166,
+   "short_ratio": 3.81,
+   "shares_short": 7360574,
+   "shares_short_prior": 7364782,
+   "date": 1789430400,
+   "float": 442388333,
+   "chg_vs_prior": -0.1
+  },
+  "WMT": {
+   "spf": 0.0183,
+   "short_ratio": 2.9,
+   "shares_short": 80590071,
+   "shares_short_prior": 63070567,
+   "date": 1789430400,
+   "float": 4850137090,
+   "chg_vs_prior": 27.8
+  },
+  "JNJ": {
+   "spf": 0.0098,
+   "short_ratio": 3.42,
+   "shares_short": 21188522,
+   "shares_short_prior": 21591738,
+   "date": 1789430400,
+   "float": 2405994561,
+   "chg_vs_prior": -1.9
+  },
+  "XLU": {
+   "spf": null,
+   "short_ratio": null,
+   "shares_short": null,
+   "shares_short_prior": null,
+   "date": null,
+   "float": null
+  }
+ }
+}

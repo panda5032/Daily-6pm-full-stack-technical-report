@@ -1,0 +1,14 @@
+*
+!.gitignore
+!requirements.txt
+!cloud_daily.sh
+!PLAYBOOKS.md
+!AI_Portfolios.xlsx
+!short_interest_cache.json
+!*.py
+_*.py
+*.html
+trade_plan_charts/
+_data_cache/
+__pycache__/
+*.log
