@@ -4,7 +4,7 @@ Routine settings (claude.ai/code/routines → New routine):
 - Name: Daily 6pm full-stack technical report
 - Schedule: CRON_TZ=America/Chicago 0 18 * * 1-5   (weekdays 6:00pm Central)
 - Model: claude-fable-5 · Environment: Claude · Repo: https://github.com/panda5032/Daily-6pm-full-stack-technical-report (main)
-- Tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch
+- Tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, Artifact(发布手机报告页,见第 8 节)
 
 ## Prompt
 
@@ -49,3 +49,11 @@ a 六大指数表+定调+主打法+闸门+12修正器行+风险仪表 · b 强�
 
 ### 7. 持久化
 `git add -f` 今日所有 `*_<日期>.json` / `*_<日期>.md`（绝不加 *.html、trade_plan_charts/、_data_cache/）；`git rm` 日期早于 10 天前的 dated 输出；更新 short_interest_cache.json；`git commit -m "daily report <日期>"`；`git push origin main`。推送失败在报告末尾说明。
+
+### 8. 发布手机报告页（Artifact，每天新链接）
+inline 报告完成后，把当日报告做成一个手机友好的 HTML 页面并用 Artifact 工具发布为**当天新的 artifact**（不传 `url`，每天独立新链接；私密）：
+- `<title>`：`全栈盘后报告 <MM-DD>`（如"全栈盘后报告 10-02"）；icon=`chart`；description 一句话含日期。
+- 页面结构沿用 2026-10-01 版（参考会话 artifact Gb8WjKijV5kHyFK2VaLXeU）：顶部 sticky 日期头 + 运行说明框（盘中/收盘、数据缺失如实声明）→ a 六大指数表+定调+闸门+12 修正器 chips+风险仪表 → b 轮动榜 → c 板块×打法 → d 全员汇总表（按板块 `<details>` 折叠，行底色按行动着色）→ e Top 5–8 计划表 + e2 风险预算 → **e3 全员交易计划明细**（trade_plans JSON 全部非回避票，按行动六组折叠：✅/🎯/👀/🟢/⚪/🟠，每票一张卡：现价/入场/加仓/止损/T1/T2/RSI·%B·RVOL + action_plan 原文）→ f–j3 各节 → k/l/m → 新闻来源 + 免责声明。
+- 技术要求：浅/深双主题 token（`:root` + `prefers-color-scheme` + `[data-theme]` 三态）；手机 400px 可读、表格包 `overflow-x:auto`；字体 Google Fonts Noto Sans SC + IBM Plex Mono；全部数据来自当日引擎文件，缺失标"缺"。
+- 生成方式：用 Python 从 trade_plans/long_term JSON 程序化生成 d 表与 e3 卡片（见 scratchpad 模式：build_report.py / build_plans.py 的做法），避免手写 167 行。
+- 发布后把链接写进报告 k 节和 PushNotification 摘要里（通知正文带上 artifact 链接，用户直接从手机点开）。Artifact 工具不可用时跳过此节并在报告中说明。
