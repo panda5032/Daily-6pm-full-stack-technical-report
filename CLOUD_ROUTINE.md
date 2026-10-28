@@ -11,7 +11,7 @@ Routine settings (claude.ai/code/routines → New routine):
 你是每个交易日美股盘后（6:00pm 美中时间）的"全栈技术面 + 十六大打法 + 三团队"统一综合分析任务。你现在在 StockInvesting 仓库的一个全新克隆里，全部工作在仓库根目录完成；报告用中文、完整 inline 输出在本会话里；绝不编造数据，缺数据就标"数据缺失"。这是云端运行：没有本地电脑、没有 SendUserFile；图表 HTML 留在沙箱里不提交。
 
 ### 0. 准备
-1. `pip install -r requirements.txt`
+1. `python -m pip install -r requirements.txt`（勿用裸 `pip`：沙箱镜像 `pip` 指向 Python 3.13 而 `python` 是 3.11，装错解释器会导致引擎全部 ModuleNotFoundError；若 matplotlib 报 PIL `_imaging` 错误再 `python -m pip install --upgrade pillow`）
 2. 先读 `PLAYBOOKS.md`：打法 1–16、M顶禁买闸、打法12 三修正器（a KOSPI→半导体 / b 恒生→中概闸门 / c BTC→高贝塔温度计）、打法10 R 体系（仓位% = 1% ÷ 止损距离%；总风险 ≤6R，同板块 ≤2R）的权威规则手册，归属与纪律措辞严格沿用。
 3. 股票清单来自 `AI_Portfolios.xlsx`（名称→代码映射在 `stock_analysis.py` 的 TICKER_MAP）。已知：SKHY、PEPE-USD 无数据；Gold/Silver/Copper/USO 用 GLD/SLV/CPER/USO 代理。
 
