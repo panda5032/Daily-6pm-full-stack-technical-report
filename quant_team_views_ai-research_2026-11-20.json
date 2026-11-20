@@ -1,0 +1,379 @@
+{
+ "agent": "ai-stocks-research-analyst",
+ "as_of": "2026-11-20",
+ "theme": {
+  "cycle_view": "AI capex has not been cut and the demand prints are still accelerating: NVDA FQ3 FY27 revenue $115.8B +103% y/y with FQ4 guided ~$130B (2026-11-17), TSMC October revenue +59.7% y/y (2026-11-10), Arista guiding 2027 +38-40% (2026-11-03), Alphabet saying 2027 capex will 'increase significantly' and Microsoft trimming CY2026 capex only from $175B to ~$170B on supplier delays (2026-10-28/29). What changed since late October is the price and availability of capital, not demand: Alphabet's FCF went negative and the stock had its worst day ever (-12 to -13%, 2026-10-29), Amazon's TTM FCF is -$42.4B, Meta is raising up to ~$95B of equity, CoreWeave CDS trade at 1,100-1,290bp with its 2031 bond near 16%, OpenAI's round reportedly reached ~$11B of a $30B target, the 10Y is ~5% with a December Fed hike priced (late-October data; current level not found), Democrats won both chambers on 2026-11-03, and Jensen Huang resigned on 2026-11-12 amid board and FBI investigations. So this is a funding and de-rating shock on top of intact earnings: 2026 spend is safe, but 2027 growth now depends on capital markets reopening, and the layers that need outside money (neoclouds, power, quantum) are impaired while cash-generative chokepoints are being sold with them.",
+  "stance": "neutral",
+  "layer_ranking": [
+   "1. Compute & semis - earnings and guidance still rising, supply-constrained (TSM, ASML, HBM), largest de-rating; disagree with z_ai_theme, which ranks it low purely on trailing price. Prefer foundry/equipment over merchant GPU.",
+   "2. AI applications & data - split layer: security and infrastructure software have a confirmed demand read (PANW 2026-11-18, NET +39%) and need no capex funding; seat-based application software is where agents compress revenue (TEAM). Agree with the quant score for the first half only.",
+   "3. Cloud & frontier models - demand is strongest here (Azure +48%, AWS +39%) but this is where FCF is going negative and equity is being issued. z_ai_theme ranks it top on price; I agree only for AAPL and MSFT, not META/AMZN.",
+   "4. Datacenter, neocloud & power gear - ANET is the exception; the rest is levered, customer-concentrated and facing a credit market Evercore describes as 'no mas' to AI debt without operating cash flow. Agree with the low quant score.",
+   "5. AI power & materials - announcements ahead of revenue, long time to cash, funding-dependent; -32% 1m. Agree with quant.",
+   "6. Physical AI / frontier compute (robotics, self-driving, quantum) - cash burn with a higher cost of capital and a closed equity window. Agree with quant."
+  ],
+  "z_ai_theme_comment": "z_ai_theme is trailing price strength, so right now it is a measure of who has been sold least. It is right about the bottom three layers and wrong to put semis below hyperscalers on a 3-12 month view. All of this is a fundamental ranking; timing and gross exposure are the regime's call (RISK-OFF, VIX 36.9, 12% breadth).",
+  "what_would_change_the_view": "Downgrade to underweight if a big-four hyperscaler guides 2027 capex flat or down, if a large AI lab renegotiates compute contracts, or if the NVDA investigation leads to new China export restrictions. Upgrade if AI credit spreads tighten and AVGO (2026-12-09) and the January hyperscaler prints hold 2027 plans.",
+  "unverified": [
+   "10Y yield, Fed pricing and VIX for 2026-11-20 not found by search (VIX from candidates file; rates from run_log_2026-10-30)",
+   "NVDA post-earnings move: sources conflict (-2.9% on 2026-11-18 vs a 'rally')",
+   "OpenAI round and ~$600B compute figure come from secondary summaries of WSJ/FT",
+   "Alphabet Q3 cloud growth and backlog figures conflict across sources; not used",
+   "Most next-earnings dates are estimates or not found",
+   "WebFetch was blocked for all hosts; every fact comes from search-result summaries, not the primary page"
+  ],
+  "sources": [
+   "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+   "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+   "https://www.cnbc.com/investingclub/2026/11/18/nvidias-earnings-report-had-something-for-the-bulls-bears-and-everyone-in-between.html",
+   "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy",
+   "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+   "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html",
+   "https://techstartups.com/2026/11/02/openai-falls-short-of-30-billion-funding-goal-as-investors-grow-wary-of-ai-spending/",
+   "https://www.foxbusiness.com/markets/google-parent-alphabet-suffers-nearly-500b-wall-street-wipeout-amid-ai-spending-fears",
+   "https://pr.tsmc.com/english/news/3349",
+   "https://www.morningstar.com/news/business-wire/20261103862513/arista-networks-inc-reports-third-quarter-2026-financial-results",
+   "https://tech-insider.org/microsoft-azure-48-percent-33-2b-cash-flow-ai-spending-fears-2026/",
+   "https://www.investmentnews.com/equities/meta-plots-95b-stock-offering-as-ai-spending-drains-cash-flow/268740",
+   "https://www.adn.com/nation-world/2026/11/07/from-high-flying-ai-stocks-to-tariff-hit-alcohol-companies-the-midterms-shook-up-wall-street/",
+   "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
+   "https://www.benzinga.com/trading-ideas/movers/26/11/63442591/cybersecurity-stocks-jump-thursday-whats-driving-the-rally",
+   "repo: run_log_2026-10-30.md",
+   "repo: quant_team_candidates_2026-11-20.json"
+  ]
+ },
+ "views": [
+  {
+   "ticker": "ZETA",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.5,
+   "thesis": "AI revenue is in the line: marketing-data platform, Q3 2026 (reported 2026-11-09) revenue $493M +46% y/y, adj EPS $0.38 vs $0.28 consensus, FY2026 guidance raised on revenue, EBITDA, FCF and GAAP EPS. Not funded by hyperscaler capex; P/S 4.3 and FCF yield 3.2% (candidates file) are modest for the growth. Still 26% above MA200.",
+   "risks": "Growth partly acquired (organic rate not verified here); thin GAAP margin (5.1% operating, candidates file); ad budgets are cyclical if the selloff hits the real economy; -11% 1m and below MA50.",
+   "next_earnings": "unknown (next report expected ~Feb 2027, date not found)",
+   "sources": [
+    "https://www.fool.com/earnings/call-transcripts/2026/11/10/zeta-global-zeta-q3-2026-earnings-call-transcript/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "OKTA",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.45,
+   "thesis": "Identity for AI agents is a real demand line and security is the one software group with a confirmed demand read (PANW 2026-11-18). But consensus for the October quarter is only ~10% growth to $816M, against P/S 10.9 (candidates file) and a stock one source puts up ~140% YTD. Fairly priced into a binary print.",
+   "risks": "Earnings in about 7 trading days; valuation vs 10% growth; a miss in this tape gets punished hard (see TEAM).",
+   "next_earnings": "2026-12-01 (reported by secondary sources, not company-confirmed)",
+   "sources": [
+    "https://invezz.com/news/2026/11/19/heres-why-sentinelone-okta-zscaler-and-crowdstrike-stocks-rising-today/",
+    "https://www.benzinga.com/trading-ideas/movers/26/11/63442591/cybersecurity-stocks-jump-thursday-whats-driving-the-rally",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.6,
+   "thesis": "The capex-light hyperscaler: no AI build-out to fund, so the price-of-capital shock that is hitting the group does not touch it. FQ4 2026 (reported 2026-11-02) revenue $114.5B +12% vs 9-11% guidance, iPhone $57.6B +17.5%, December quarter guided to be the best revenue quarter in company history with iPhone Duo (on sale 2026-10-23) all incremental. Only AI-chain candidate above both MA50 and MA200.",
+   "risks": "Management flagged memory-cost pressure on margins and supply constraints; earnings yield 2.65% / P/S 10.4 (candidates file) is not cheap; AI exposure is as a consumer of others' models, not a seller - this is a quality/defensive view, not an AI-growth view.",
+   "next_earnings": "unknown (late Jan 2027 expected, date not found)",
+   "sources": [
+    "https://macrumors.com/2026/11/02/apple-4q-2026-earnings",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "RBRK",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "Data security/backup with 38% revenue growth (candidates file, quarter to 2026-07-31) and tailwind from the same security demand PANW confirmed. No fresh company data found for this run; operating margin -18% and P/S 14.3 make it a long-duration name in a rising cost-of-capital regime.",
+   "risks": "Unprofitable on GAAP; FQ3 report due early December (date not found); -11% 1m.",
+   "next_earnings": "not found (expected early Dec 2026)",
+   "sources": [
+    "https://www.benzinga.com/trading-ideas/movers/26/11/63442591/cybersecurity-stocks-jump-thursday-whats-driving-the-rally",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "CRWD",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.45,
+   "thesis": "Platform security leader and AI-agent security beneficiary; consensus for the October quarter is +23% to $1.53B. Group demand read is positive (PANW 2026-11-18, CRWD ~+6% premarket 2026-11-19). But P/S 43 (candidates file) and a forward P/E one source puts at 186x leave no margin for error at VIX ~37.",
+   "risks": "Valuation; earnings in about 7 trading days; a technology-outage scare hit application software on 2026-11-17.",
+   "next_earnings": "2026-12-01 (reported by secondary sources, not company-confirmed)",
+   "sources": [
+    "https://invezz.com/news/2026/11/19/heres-why-sentinelone-okta-zscaler-and-crowdstrike-stocks-rising-today/",
+    "https://www.benzinga.com/trading-ideas/movers/26/11/63442591/cybersecurity-stocks-jump-thursday-whats-driving-the-rally",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.65,
+   "thesis": "Best-funded AI franchise with AI revenue visible: FQ1 FY27 (reported 2026-10-28) Azure +48% to $33.2B, quarterly capex $45.2B but FCF still +$18.6B. CY2026 capex trimmed to ~$170B from $175B because third-party capacity slipped, not because demand fell; FY27 capex still guided up. Earnings yield 4.0%, operating margin 47% (candidates file). Self-funded, so it gains share if neoclouds cannot finance.",
+   "risks": "FCF down 27% y/y; exposure to OpenAI, whose funding round reportedly closed ~$11B against a $30B target (WSJ via secondary sources, early Nov 2026); below MA50; next catalyst not until late January.",
+   "next_earnings": "unknown (late Jan 2027 expected, date not found)",
+   "sources": [
+    "https://tech-insider.org/microsoft-azure-48-percent-33-2b-cash-flow-ai-spending-fears-2026/",
+    "https://valueaddvc.com/blog/big-tech-ai-capex-in-2025-microsoft-google-meta-amazon-and-the-spending-race",
+    "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+    "https://techstartups.com/2026/11/02/openai-falls-short-of-30-billion-funding-goal-as-investors-grow-wary-of-ai-spending/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "META",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Core ads business is strong (revenue +26% y/y, operating margin 33%, earnings yield 5.3% - candidates file) and the stock is the cheapest hyperscaler. But it is funding AI capex ($135-145B for 2026, Q3 capex $34.9B) with an equity raise of up to ~$95B announced 2026-10-26, including new non-voting Class C shares - the clearest case in the group of capex outrunning internal cash flow, with no external cloud revenue to monetise it. Fell 7% the day after results (2026-10-22).",
+   "risks": "Dilution and governance (non-voting class); no 2027 capex guide found; 17% below MA50 and below MA200 - one bad month from the knife filter.",
+   "next_earnings": "unknown (late Jan 2027 expected, date not found)",
+   "sources": [
+    "https://www.investmentnews.com/equities/meta-plots-95b-stock-offering-as-ai-spending-drains-cash-flow/268740",
+    "https://www.semafor.com/article/10/26/2026/meta-announces-95b-offering-to-fund-ai",
+    "https://valueaddvc.com/blog/big-tech-ai-capex-in-2025-microsoft-google-meta-amazon-and-the-spending-race",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "PANW",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.6,
+   "thesis": "Freshest positive print in scope: FQ1 FY27 (reported 2026-11-18) revenue $3.45B +39% y/y, FY27 revenue guidance raised to $14.52-14.57B from $14.10-14.20B; lifted the whole security group on 2026-11-19. Security spend is not funded by the AI capex cycle and rises with AI adoption. Event risk is now behind it.",
+   "risks": "Headline growth includes acquired revenue (organic split not verified); P/S 24 (candidates file); below MA50.",
+   "next_earnings": "unknown (Feb 2027 expected, date not found)",
+   "sources": [
+    "https://www.benzinga.com/trading-ideas/movers/26/11/63442591/cybersecurity-stocks-jump-thursday-whats-driving-the-rally",
+    "https://invezz.com/news/2026/11/19/heres-why-sentinelone-okta-zscaler-and-crowdstrike-stocks-rising-today/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "NET",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.45,
+   "thesis": "Fundamentals are accelerating: Q3 2026 (reported 2026-11-05) revenue $782.5M +39% y/y, non-GAAP operating income $137.1M (17.5% margin), GAAP operating loss $67.9M. Edge inference/agent traffic is a real usage line. Held at 0 on price: P/S 36 and FCF yield 0.3% (candidates file) make it the longest-duration name here in a price-of-capital shock.",
+   "risks": "Valuation compression if 10Y stays ~5%; -24% off high and 14% below MA50.",
+   "next_earnings": "unknown (early Feb 2027 expected, date not found)",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000060/q326exhibit991.htm",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "WDAY",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "Cheap on FCF (6.7% yield, P/S 4.2 - candidates file) with 13% growth, but it is seat-based HR/finance software, the category most exposed to agent-driven seat compression, and it reports in two sessions. No edge on the print.",
+   "risks": "Binary earnings on 2026-11-24 in a tape that took TEAM down ~17-20% on a guidance trim; -16% 1m.",
+   "next_earnings": "2026-11-24",
+   "sources": [
+    "https://www.investing.com/equities/snowflake-inc-earnings",
+    "https://www.bloomberg.com/news/articles/2026-11-06/atlassian-s-shares-slide-after-revenue-outlook-disappoints",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "AMD",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Reported numbers are strong: Q3 2026 (2026-11-03) revenue $13.38B +45%, data center $8.5B +97% on EPYC and the MI450 GPU launch, Q4 guided ~$17B (+~66% y/y) at ~55% gross margin. Held at 0 because the MI450 ramp leans on a small number of AI-lab/hyperscale buyers at the moment lab funding is tightening, inventory rose 35% q/q, and at P/S 15.3 / earnings yield 1.1% (candidates file) it is the most expensive semi in scope. Fell 6.3% on 2026-11-20.",
+   "risks": "Customer concentration and vendor-supported demand in the GPU ramp (structure not re-verified this run); inventory build; 23% below MA50, 34% off high.",
+   "next_earnings": "unknown (early Feb 2027 expected, date not found)",
+   "sources": [
+    "https://www.constellationr.com/insights/news/amd-q3-shines-data-center-revenue-nearly-doubles",
+    "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
+    "https://techstartups.com/2026/11/02/openai-falls-short-of-30-billion-funding-goal-as-investors-grow-wary-of-ai-spending/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "ESTC",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.35,
+   "thesis": "Search/observability with a vector-search AI angle; cheap at P/S 4.3 and 4.5% FCF yield (candidates file); FQ1 FY27 cRPO $1.153B +21%. FQ2 (quarter ended 2026-10-31) results are due around now and I could not find them, so no view on the print. -24% 1m.",
+   "risks": "Results imminent/not found; 15% growth is the slowest of the infrastructure-software names; consumption exposure.",
+   "next_earnings": "not found (FQ2 FY27 report due late Nov 2026)",
+   "sources": [
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "ANET",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.6,
+   "thesis": "Cleanest balance sheet in the infrastructure layer and the only AI Infrastructure name that survived the screen. Q3 2026 (reported 2026-11-03) revenue $3.66B +58.5% vs $3.3B guide, non-GAAP operating margin 49.1%; Q4 guided $3.9-4.0B vs ~$3.6B consensus; 2027 growth guided 38-40% (~$18.5B). Sells to the self-funded hyperscalers, not to levered neoclouds.",
+   "risks": "Hyperscaler customer concentration; 2027 guide assumes the capex plans hold; P/S 17.7; 13% below MA50.",
+   "next_earnings": "unknown (mid Feb 2027 expected, date not found)",
+   "sources": [
+    "https://www.morningstar.com/news/business-wire/20261103862513/arista-networks-inc-reports-third-quarter-2026-financial-results",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "TSM",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.65,
+   "thesis": "The chokepoint with monthly hard data: October 2026 revenue NT$586.89B, +59.7% y/y and +14.7% m/m, a record and above the NT$560-570B analysts expected (reported 2026-11-10); Q4 guide US$52.3-54.3B. Operating margin 58% (candidates file). Stock is -22% 1m and 20% below MA200 on no company-specific bad news: this is de-rating, not an earnings downgrade.",
+   "risks": "Tighter export controls under the incoming Congress; NVDA-related probe spilling into China chip policy; any hyperscaler 2027 capex cut shows up here with a lag; still in a downtrend.",
+   "next_earnings": "unknown (Q4 report mid Jan 2027 expected; November monthly revenue ~2026-12-10)",
+   "sources": [
+    "https://pr.tsmc.com/english/news/3349",
+    "https://www.adn.com/nation-world/2026/11/07/from-high-flying-ai-stocks-to-tariff-hit-alcohol-companies-the-midterms-shook-up-wall-street/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "ASML",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.55,
+   "thesis": "Q3 2026 (reported 2026-10-14) record sales ~EUR11.7B, +~55% y/y, gross margin 57.5%, FY2026 sales guidance raised to EUR44-45B, and management says 2027-28 tool supply is short of demand. Orders are multi-year and placed by TSMC/memory makers, one step removed from AI-lab funding. -36% off high.",
+   "risks": "No longer publishes quarterly bookings, so order momentum is not verifiable; China exposure to tighter export controls; semicap is late-cycle if capex growth plateaus in 2027.",
+   "next_earnings": "unknown (late Jan 2027 expected, date not found)",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm",
+    "https://www.stocktitan.net/articles/asml-q3-2026-earnings-ai-chip-machine-demand",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "SPOT",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "Not an AI earnings story: Q3 2026 (2026-10-22) revenue EUR5.0B +16%, premium subs 306M +9%. AI exposure is product features, not a revenue line. Holding up (above MA50 and MA200) because it is uncorrelated with the capex trade - fine as a diversifier, no AI-thesis reason to own it.",
+   "risks": "AI-generated music/content and label negotiations; no valuation data in the candidates file.",
+   "next_earnings": "unknown (early Feb 2027 expected, date not found)",
+   "sources": [
+    "https://newsroom.spotify.com/2026-10-22/spotify-q3-2026-earnings/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "U",
+   "agent": "ai-stocks-research-analyst",
+   "view": 1,
+   "conviction": 0.4,
+   "thesis": "AI is in the revenue line via the Vector ad model: Q3 2026 (reported 2026-11-05) revenue $622M +32%, Grow $457M +44%, Vector +126% y/y and +40% q/q vs ~20% guided; Q4 strategic revenue guided $683-691M (+65-67%). One of the few AI-chain names up over 1m (+11%).",
+   "risks": "Story now rests almost entirely on ads; management warned 40% sequential Vector growth will not repeat; the $122M GAAP profit may include non-recurring items (not verified); Create growing only 4-6%; TTM operating margin -18% (candidates file).",
+   "next_earnings": "unknown (Feb 2027 expected, date not found)",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001810806/000181080626000053/a2026q3ex-991.htm",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "TEAM",
+   "agent": "ai-stocks-research-analyst",
+   "view": -1,
+   "conviction": 0.5,
+   "thesis": "The seat-compression case study. FQ1 FY27 (reported 2026-11-05) beat, but a forecast for slower subscription/cloud growth took the stock down ~17-20% and it is -39% over 1m (candidates file); fell another 6% on 2026-11-17. Developer-seat software is where coding agents bite first. It only escaped the knife filter because it is still above MA200.",
+   "risks": "Upside risk: FCF yield 4.9%, P/S 4.9, cloud revenue still +31% - it is cheap if the guide proves conservative.",
+   "next_earnings": "unknown (late Jan/early Feb 2027 expected, date not found)",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-11-06/atlassian-s-shares-slide-after-revenue-outlook-disappoints",
+    "https://siliconangle.com/2026/11/05/atlassian-shares-fall-17-as-slower-subscription-growth-forecast-overshadows-earnings-beat/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "SNPS",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "EDA is a genuine AI-chip picks-and-shovels business, but the 42% reported growth (FQ3 revenue $2.48B) is inflated by the Ansys acquisition, the stock is below MA200, and a single aggregator reports NVDA cut its stake 9.7% to ~4.4M shares (2026-11-16, not confirmed against the filing). China/export-control exposure rises with the new Congress.",
+   "risks": "Acquisition leverage; export controls; FQ4 print ~2026-12-08 (unconfirmed).",
+   "next_earnings": "2026-12-08 (estimate, not company-confirmed)",
+   "sources": [
+    "https://longbridge.com/en/news/305725843",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "AWS is strong (+39% in Q3 2026) but the quarter (reported 2026-10-29) missed on EPS ($1.89 vs ~$1.96) and revenue, and TTM FCF is -$42.4B with 2026 cash capex still guided ~$220B; FCF yield -1.4% (candidates file). Demand is real, the cash is not there yet. Holding above MA200 and only -1% 1m.",
+   "risks": "Negative FCF in a 5% 10Y world; $38B OpenAI compute commitment as counterparty risk; no 2027 capex guide found.",
+   "next_earnings": "unknown (late Jan/early Feb 2027 expected, date not found)",
+   "sources": [
+    "repo: run_log_2026-10-30.md",
+    "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "ZS",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "Zero-trust security, consensus +19% to $938M for the October quarter, positive group read from PANW. But -18% 1m, -33% off high, and the report date is imminent and unconfirmed (2026-11-24 or 2026-12-02 depending on source).",
+   "risks": "Event risk within days; slowing growth vs PANW/NET.",
+   "next_earnings": "unconfirmed: 2026-11-24 (MarketBeat estimate) or 2026-12-02 (TipRanks estimate)",
+   "sources": [
+    "https://www.marketbeat.com/stocks/NASDAQ/ZS/earnings/",
+    "https://invezz.com/news/2026/11/19/heres-why-sentinelone-okta-zscaler-and-crowdstrike-stocks-rising-today/",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  },
+  {
+   "ticker": "SNOW",
+   "agent": "ai-stocks-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "Consumption data platform where AI workloads do show up in usage (35% growth, candidates file), but operating margin -23%, P/S 16.4, 20% below MA50, and it reports 2026-12-02. No evidence either way on the quarter.",
+   "risks": "Consumption optimisation if customers cut cloud bills; valuation; earnings event.",
+   "next_earnings": "2026-12-02 (estimate, not company-confirmed)",
+   "sources": [
+    "https://www.investing.com/equities/snowflake-inc-earnings",
+    "repo: quant_team_candidates_2026-11-20.json"
+   ]
+  }
+ ],
+ "vetoes": [],
+ "add_back": [
+  {
+   "ticker": "MU",
+   "reason": "Excluded as a falling knife, ~42% below its June record close, but the earnings driver is contracted: Micron said it raised HBM prices significantly for CY2027 with most 2027 HBM supply covered above 2026 prices, and NVDA lifted supply commitments to $390B, mostly memory (2026-11-19). The mid-November drop was a NAND price forecast, and NAND is ~a quarter of the business. Small, staged position only; memory is the most cyclical part of the chain.",
+   "sources": [
+    "https://www.fool.com/investing/2026/11/19/nvidia-just-raised-its-supply-commitments-to-usd390-billion-mostly-for-memory-micron-is-the-memory-stock-i-d-buy/"
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "reason": "Not excluded, ranked just below the cut (next_ranked). The -12 to -13% on 2026-10-29 was about negative FCF (-$5.9B reported by one source) and an EPS miss ($2.67 vs $3.02), not demand; it has its own silicon and a cloud business large enough to monetise the capex. Lower conviction than MU: 2027 EPS estimates are being cut and FCF is the issue the market is punishing.",
+   "sources": [
+    "https://www.foxbusiness.com/markets/google-parent-alphabet-suffers-nearly-500b-wall-street-wipeout-amid-ai-spending-fears",
+    "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "reason": "Only if it is in the universe (not in candidates, next_ranked or the excluded list). FQ4 guided $34.8B (+93% y/y) with AI chips $21.7B, FY2027 AI semiconductor revenue projected at $115B, RPO $179.2B; reports 2026-12-09. Caveat: the RPO is attributed mainly to one custom-accelerator contract, so AI-lab funding risk applies. Wait for the print.",
+   "sources": [
+    "https://fourweekmba.com/broadcom-stock/"
+   ]
+  }
+ ],
+ "not_added_back": [
+  {
+   "ticker": "NVDA",
+   "reason": "Best fundamentals in the chain, but the screen is right for now: CEO resigned 2026-11-12, board and FBI investigations are open, interim CEO, and the outcome could tighten China export rules. Unquantifiable governance risk; revisit when the investigation scope is known."
+  }
+ ]
+}

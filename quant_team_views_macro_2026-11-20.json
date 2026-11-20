@@ -1,0 +1,150 @@
+{
+ "agent": "macro-strategist",
+ "as_of": "2026-11-20",
+ "macro": {
+  "gross_exposure_cap": 0.25,
+  "agent": "macro-strategist",
+  "reason": "Capped at 0.25, below the engine's 0.35 (RISK-OFF, score -1, VIX 36.9 intraday, 11.7% of universe above MA50, SPY -5.1% vs MA200, QQQ -10.2% vs MA200). Three sourced things the price gauge does not see: (1) the Fed is tightening into the drawdown - held 3.75-4.00% on Oct 28, minutes show confidence in a December hike, CME FedWatch ~95% for +25bp on Dec 9 (Kalshi 77-91%) with a January hike also being priced; Oct core CPI +0.3% m/m vs +0.2% expected; 10Y 5.085% / 30Y 5.426% on Nov 19 (10Y ~4.94-4.98% on Nov 20 on safe-haven bid) so the house 30Y>=5% gate is on. (2) Credit stress is concentrated exactly where the universe is long: CoreWeave 5Y CDS up to ~1,233bp on Nov 20, CCC spreads ~1,000bp (+500bp from 2026 lows per Vanguard), while the HY index OAS is only ~3.43% (Nov 17) - the index is hiding it, and a break above 4% would be the broadening signal. (3) VIX curve inverted (backwardation as of Nov 19 close; it was in contango Nov 13), i.e. the house term-structure gate is on. Event risk inside the holding window lands in a holiday-thinned tape: PCE + GDP Nov 25, payrolls Dec 4, FOMC Dec 9, CPI Dec 10. The driver is a trend change in the AI-capex leadership (three-plus weeks of selling since late Oct, S&P in correction, Nasdaq YTD gains erased) with shocks layered on top (Nvidia CEO resignation Nov 12, $68bn+ Anthropic IPO supply Nov 19 then a steep day-two fall), not a one-day shock, despite strong reported earnings (Q3 blended EPS growth 31.9%, NVDA beat and guided $130bn).",
+  "add_risk_when": [
+   "Lift cap back to engine figure (stop overriding) when VIX front-month returns to contango (VIX < VIX3M) for 2 consecutive closes AND VIX closes below 28",
+   "HY index OAS stays below 4.0% and CoreWeave 5Y CDS retraces below ~1,000bp",
+   "QQQ closes back above MA50 with universe breadth above 40% (engine regime flips; trend basket re-enabled per PLAYBOOKS)",
+   "Dec 9 FOMC delivers the priced 25bp hike without signalling January (or holds) and 30Y closes below 5.0%",
+   "KOSPI reclaims 5,300 / stops making lower lows and BTC reclaims its MA50 (house 12a/12c confirmations)"
+  ],
+  "cut_risk_when": [
+   "Cut cap to 0.15: HY index OAS above 4.0% or CCC spreads above ~1,200bp (credit stress broadening beyond AI names)",
+   "Cut cap to 0.15: VIX closes above 40 with the curve still inverted, or SPY closes more than 8% below MA200",
+   "Cut cap to 0.15: Oct PCE (Nov 25) core at or above +0.4% m/m, or market prices a 50bp hike for Dec 9 above ~25%",
+   "30Y closes above 5.5% (new high in long yields while equities fall = no bond hedge)",
+   "A disorderly AI-credit event: CoreWeave or another neocloud/datacenter issuer misses a payment, pulls a financing or draws a covenant waiver",
+   "KOSPI closes below 4,700 or Hang Seng confirms bear market (>20% off Jan 29 peak) with BTC below $55,000"
+  ]
+ },
+ "regime_assessment": "RISK-OFF confirmed and I judge it a trend change in AI-capex leadership rather than a transient shock. Engine (intraday snapshot 2026-11-20): SPY 693.00, -9.3% 1m, -8.8% vs MA50, -5.1% vs MA200, -11.1% off high; QQQ 612.82, -13.0% 1m, -13.8% vs MA50, -10.2% vs MA200, -19.3% off high; VIX 36.87; breadth 11.7% above MA50; all five checks fail. Timeline (sourced): selling began late Oct (Oct 30 run log: Nasdaq -2.86%, INTC -29%, 'Alphabet shock'); Oct CPI Nov 10 hot on core (+0.3% vs +0.2%); Nvidia CEO Jensen Huang resigned Nov 12 amid a board investigation, CFO Kress interim, NVDA lowest close since Jul 2025 by Nov 16; NVDA Q3 FY27 on Nov 17 beat ($115.8bn rev, Q4 guide $130bn +/-3%) and did not stop the selling; Anthropic IPO priced $83 (~$1.5tn, >=$68bn raised) and listed Nov 19, then fell hard on day two (Nov 20) with Nasdaq down ~3.4-5% and S&P ~2-3.5% intraday depending on timestamp; 58% of Nasdaq-100 members reported in bear markets. Macro backdrop is hostile, not supportive: the Fed is in a hiking posture (Dec 9 hike ~95% priced), 10Y ~5%, 30Y ~5.3-5.4%, dollar firm, gold liquidated. Fundamentals are the one positive: Q3 blended S&P EPS growth 31.9% (FactSet Nov 13), 84% beat rate but the smallest aggregate surprise (2.7%) since Q4 2022. House cross-asset confirmations are all negative: KOSPI -5.2% to 4,869.96 on Nov 20 (lowest close since Jan 16; was 5,730 on Oct 30); Hang Seng ~22,411, ~20% off its Jan 29 peak; BTC $58-61.7k, lowest since early July (was ~$77k on Oct 30), record IBIT outflow. Per PLAYBOOKS, QQQ<MA50 switches to the bottom-fishing basket (7/14/15) only; trend-basket entries are off. The market_internals_2026-10-01 files are stale and were ignored; run_log_2026-10-30 was used for background only and its figures re-verified or superseded above.",
+ "sector_tilts": {
+  "Semis": "underweight - 0% above MA50/MA200, -19.9% 1m; KOSPI gate negative (-5.2% Nov 20); NVDA leadership vacuum; good NVDA print was sold",
+  "AI Infrastructure": "underweight / avoid new longs - -28.9% 1m, 0% above MA50; this is where credit stress sits (CoreWeave CDS ~1,233bp, datacenter bonds ~13% yields)",
+  "Energy": "underweight - universe proxy is AI power & materials, -31.7% 1m, 0% above MA200; same financing channel as AI infra",
+  "Crypto": "underweight - -35.3% 1m; BTC at July lows ($58-61.7k), record IBIT outflow; miners never lead the coin (house 12c)",
+  "Quantum": "underweight - -35.5% 1m, -52.8% 3m, long-duration with rates rising",
+  "Space": "underweight - -48.8% 3m, 0% above MA200, long-duration",
+  "China": "underweight / watch-size only - Hang Seng ~20% off Jan 29 peak and below MA200 per house 12b gate (MA200 status inferred from drawdown, not directly sourced)",
+  "Software": "underweight - -17.8% 1m, 13.5% above MA50; Anthropic listing reprices AI-application comps; CRWD/CRM/SNOW report ~Dec 1-2",
+  "Finance": "underweight - -18.1% 1m, 0% above MA50; credit-sensitive",
+  "Health": "neutral - weak tape (-20.0% 1m) but not rate/AI-credit driven; no macro edge",
+  "Hyperscaler": "neutral, relative overweight vs rest of AI stack - -6.7% 1m, 60% above MA200, self-funded capex; still below MA50",
+  "Rotation": "relative overweight - best holding sector (-2.7% 1m, 41.7% above MA50, 50% above MA200); preferred home for whatever gross is deployed",
+  "Trading": "relative overweight - 62.5% above MA50, -1.9% 1m; beneficiaries of volume/volatility",
+  "Self-Driving": "underweight - 0% above MA50/MA200",
+  "Robotics": "underweight - 0% above MA50/MA200, n=2",
+  "Commodity": "neutral to underweight - gold heading for worst week since March on hike bets and forced selling; 0% above MA50",
+  "_text_for_PM": "No defensive sector proxies (staples, utilities, short-duration value) in the universe; the unspent 75% of gross should sit in cash/T-bills (bills yield >= fed funds 3.75-4.00%). Only playbook 7/14/15 capitulation entries, staged, no adds before PCE Nov 25."
+ },
+ "calendar": [
+  {
+   "date": "2026-11-23",
+   "event": "Flash global PMIs (US S&P Global flash PMI)"
+  },
+  {
+   "date": "2026-11-24",
+   "event": "Dell earnings (AI server read-through); HP Inc, Best Buy, Deere also report this week (exact days not confirmed)"
+  },
+  {
+   "date": "2026-11-25",
+   "event": "Oct PCE and Q3 GDP second estimate 08:30 ET; jobless claims (moved up); Fed Beige Book. RBC sees core PCE +0.3% m/m, 3.3% y/y"
+  },
+  {
+   "date": "2026-11-26",
+   "event": "US Thanksgiving - markets closed"
+  },
+  {
+   "date": "2026-11-27",
+   "event": "Black Friday - US equities close 13:00 ET; thin liquidity"
+  },
+  {
+   "date": "2026-12-01",
+   "event": "CrowdStrike and Marvell earnings after close (estimated dates, not company-confirmed)"
+  },
+  {
+   "date": "2026-12-02",
+   "event": "Snowflake earnings (single source); Salesforce Dec 2 per two calendars, Dec 8 per Investing.com - conflict, unconfirmed"
+  },
+  {
+   "date": "2026-12-04",
+   "event": "November Employment Situation (payrolls) 08:30 ET (BLS schedule)"
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC decision (Dec 8-9 meeting); +25bp priced ~95% CME / 77-91% Kalshi. Broadcom earnings after close (estimated)"
+  },
+  {
+   "date": "2026-12-10",
+   "event": "November CPI 08:30 ET (BLS schedule) - one day after the FOMC"
+  },
+  {
+   "date": "2026-11-17",
+   "event": "PAST: Nvidia Q3 FY27 reported - rev $115.8bn, Q4 guide $130bn +/-3%; no longer pending"
+  },
+  {
+   "date": "not found",
+   "event": "November PPI date, ISM manufacturing/services dates, JOLTS - not found in sources; Fed blackout presumably starts ~Nov 28 (not sourced)"
+  }
+ ],
+ "unverified": [
+  "VIX: engine intraday 36.87 on Nov 20 matches one press report (36, highest since Apr 2025) but another says 'above 31, highest since March'; Nov 19 close was 28.44. Closing level for Nov 20 not found",
+  "Index closes for Nov 19 and Nov 20 not found (intraday reports conflict: Nasdaq -3.4% to nearly -5%, S&P -2.0% to -3.5%)",
+  "HY index OAS: 3.43% (Kalkine, Nov 17) vs 348bp ICE BofA early Nov (IndexBox) - secondary sources, not checked against ICE/FRED; Nov 20 level not found",
+  "CCC spread: ~1,000bp (Vanguard) vs 1,135bp (Substack) - conflict",
+  "Fed funds range 3.75-4.00% from Kalshi page; date of the last hike not corroborated",
+  "Hike odds: CME 95% (CNBC Nov 19) vs Kalshi 77% and 91%",
+  "Hang Seng below MA200 inferred from ~20% drawdown, not directly sourced; BTC MA50 status inferred",
+  "Salesforce, CrowdStrike, Marvell, Snowflake, Broadcom dates are calendar estimates, not company-confirmed",
+  "Anthropic day-two percentage decline not found",
+  "PPI, ISM, JOLTS dates and VIX3M level: not found"
+ ],
+ "sources": [
+  "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+  "https://beinsure.com/news/us-stock-market-today-dow-jones-sp-500-nasdaq-100-plunge-on-ai-selloff/",
+  "https://www.schwab.com/learn/story/market-volatility",
+  "https://www.schwab.com/learn/story/stock-market-update-open",
+  "https://kalshi.com/fed-rate-odds",
+  "https://www.cnbc.com/amp/2026/11/19/us-treasury-yields-investors-us-economy.html",
+  "https://fxstreet.com/news/us-10-year-treasury-yield-slips-below-5-as-global-equity-rout-deepens-202611201233",
+  "https://www.fxstreet.com/news/gold-set-for-steepest-weekly-drop-since-march-as-fed-hike-bets-and-forced-selling-weigh-202611201123",
+  "https://streetstats.finance/rates/treasuries",
+  "https://kalkine.ca/news/economic-news/is-the-high-yield-credit-spread-widening-currently-at-343-after-a-20-basis-point-rise",
+  "https://www.trefis.com/stock/spx/articles/625542/junk-bonds-have-split-in-two-the-index-hides-it/2026-11-17",
+  "https://ceoeconomy.com/article/junk-bond-stress-ccc-spreads-coreweave-ecb",
+  "https://leprivatebanker.com/2026/11/20/ai-credit-gauges-worsen-as-coreweave-default-swaps-widen-toward-1233-basis-points-and-oracle-hits-a-one-month-high/",
+  "https://www.indexbox.io/blog/ai-linked-debt-faces-investor-caution-as-political-scrutiny-mounts/",
+  "https://www.home.saxo/en-ch/content/articles/options/stocks-fall-together-as-near-term-volatility-jumps---options-brief---20-november-2026-20112026",
+  "https://www.optionsanalysissuite.com/market/vix-term-structure",
+  "https://squawkflow.com/vix-term-structure",
+  "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+  "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+  "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
+  "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+  "https://nasdaqtrader.com/TraderNews.aspx?id=DTN2026-28",
+  "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf",
+  "https://insight.factset.com/sp-500-earnings-season-update-november-6-2026",
+  "https://stockanalysis.com/news/us-cpi-rises-october-2026/",
+  "https://investinglive.com/news/us-october-core-cpi-vs-0-2-expected/",
+  "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+  "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+  "https://www.nacionale.com/en/articles/what-could-move-stock-market-next-week-thanksgiving-pce-gdp-dell-earnings-november-23",
+  "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-global-pmis-us-pce-dell-earnings",
+  "https://www.rbc.com/en/economics/us-week-ahead/pce-to-confirm-the-inflation-problem-labor-pulse-still-strong/",
+  "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026",
+  "https://international.schwab.com/node/14441",
+  "https://earningscountdown.com/earnings-season/",
+  "https://www.tipranks.com/stocks/crwd/earnings",
+  "https://www.investing.com/equities/salesforce-com-earnings",
+  "https://www.kotakneo.com/news/global-markets/kospi-nikkei-fall-hang-seng-nears-bear-market-as-ai-selloff-spreads/",
+  "https://upstox.com/news/market-news/trading/asian-markets-crash-nikkei-225-kospi-tumble-nearly-5-amid-ai-selloff-pressure-what-s-impacting-markets-today/article-203742/",
+  "https://bitcoinmagazine.com/markets/bitcoin-price-slips-61500-asia",
+  "https://www.tradingandinvestmentnews.co.uk/asian-stocks-crash-bitcoin-61300/"
+ ],
+ "views": [],
+ "vetoes": []
+}

@@ -1,0 +1,631 @@
+{
+ "as_of": "2026-11-20",
+ "intraday_snapshot": true,
+ "method": "max_sharpe",
+ "capital": 100000.0,
+ "regime": {
+  "label": "RISK-OFF",
+  "score": -1,
+  "gross_exposure": 0.35,
+  "vix": 37.43000030517578,
+  "breadth_above_ma50": 0.11728395061728394,
+  "checks": {
+   "SPY>MA200": false,
+   "SPY>MA50": false,
+   "QQQ>MA50": false,
+   "VIX<20": false,
+   "breadth>50%": false
+  }
+ },
+ "risk_free": 0.04122000217437744,
+ "exposure": {
+  "gross": 0.25,
+  "cash": 0.75,
+  "regime_cap": 0.35,
+  "vol_target_cap": 1.0,
+  "macro_cap": 0.25,
+  "macro_note": {
+   "gross_exposure_cap": 0.25,
+   "agent": "macro-strategist",
+   "reason": "Capped at 0.25, below the engine's 0.35 (RISK-OFF, score -1, VIX 36.9 intraday, 11.7% of universe above MA50, SPY -5.1% vs MA200, QQQ -10.2% vs MA200). Three sourced things the price gauge does not see: (1) the Fed is tightening into the drawdown - held 3.75-4.00% on Oct 28, minutes show confidence in a December hike, CME FedWatch ~95% for +25bp on Dec 9 (Kalshi 77-91%) with a January hike also being priced; Oct core CPI +0.3% m/m vs +0.2% expected; 10Y 5.085% / 30Y 5.426% on Nov 19 (10Y ~4.94-4.98% on Nov 20 on safe-haven bid) so the house 30Y>=5% gate is on. (2) Credit stress is concentrated exactly where the universe is long: CoreWeave 5Y CDS up to ~1,233bp on Nov 20, CCC spreads ~1,000bp (+500bp from 2026 lows per Vanguard), while the HY index OAS is only ~3.43% (Nov 17) - the index is hiding it, and a break above 4% would be the broadening signal. (3) VIX curve inverted (backwardation as of Nov 19 close; it was in contango Nov 13), i.e. the house term-structure gate is on. Event risk inside the holding window lands in a holiday-thinned tape: PCE + GDP Nov 25, payrolls Dec 4, FOMC Dec 9, CPI Dec 10. The driver is a trend change in the AI-capex leadership (three-plus weeks of selling since late Oct, S&P in correction, Nasdaq YTD gains erased) with shocks layered on top (Nvidia CEO resignation Nov 12, $68bn+ Anthropic IPO supply Nov 19 then a steep day-two fall), not a one-day shock, despite strong reported earnings (Q3 blended EPS growth 31.9%, NVDA beat and guided $130bn).",
+   "add_risk_when": [
+    "Lift cap back to engine figure (stop overriding) when VIX front-month returns to contango (VIX < VIX3M) for 2 consecutive closes AND VIX closes below 28",
+    "HY index OAS stays below 4.0% and CoreWeave 5Y CDS retraces below ~1,000bp",
+    "QQQ closes back above MA50 with universe breadth above 40% (engine regime flips; trend basket re-enabled per PLAYBOOKS)",
+    "Dec 9 FOMC delivers the priced 25bp hike without signalling January (or holds) and 30Y closes below 5.0%",
+    "KOSPI reclaims 5,300 / stops making lower lows and BTC reclaims its MA50 (house 12a/12c confirmations)"
+   ],
+   "cut_risk_when": [
+    "Cut cap to 0.15: HY index OAS above 4.0% or CCC spreads above ~1,200bp (credit stress broadening beyond AI names)",
+    "Cut cap to 0.15: VIX closes above 40 with the curve still inverted, or SPY closes more than 8% below MA200",
+    "Cut cap to 0.15: Oct PCE (Nov 25) core at or above +0.4% m/m, or market prices a 50bp hike for Dec 9 above ~25%",
+    "30Y closes above 5.5% (new high in long yields while equities fall = no bond hedge)",
+    "A disorderly AI-credit event: CoreWeave or another neocloud/datacenter issuer misses a payment, pulls a financing or draws a covenant waiver",
+    "KOSPI closes below 4,700 or Hang Seng confirms bear market (>20% off Jan 29 peak) with BTC below $55,000"
+   ]
+  },
+  "binding": "macro strategist"
+ },
+ "expected": {
+  "annual_return": 0.06111269921518147,
+  "sleeve_excess_return": 0.07957078816321611,
+  "ex_ante_vol": 0.03279905905633524,
+  "sharpe": 0.6065020647890108,
+  "cov_shrinkage": 0.07577256605061976,
+  "assumptions": "IC 0.05 on factor score, IC 0.1 on analyst views, ERP 5%; model estimate, not a forecast"
+ },
+ "risk": {
+  "n_names": 15,
+  "effective_n": 14.30516149283567,
+  "top5_weight": 0.1,
+  "ex_ante_vol": 0.03279905905633524,
+  "sleeve_vol": 0.13119623622534096,
+  "beta": {
+   "SPY": 0.1927352505416838,
+   "QQQ": 0.11023065983316771
+  },
+  "avg_pairwise_corr": 0.056370986086429195,
+  "var95_1d": 0.0032945877513644957,
+  "cvar95_1d": 0.004598469612404337,
+  "max_dd_1y_same_weights": -0.017686143077938143,
+  "stress": {
+   "avg of 10 worst QQQ days (1y)": -0.0042730091047936845,
+   "QQQ -10% shock (beta-implied)": -0.011023065983316772,
+   "QQQ -25% bear (beta-implied)": -0.027557664958291928
+  },
+  "sector_weights": {
+   "Rotation": 0.07587065294856149,
+   "Hyperscaler": 0.055730332511789715,
+   "Trading": 0.04,
+   "Semis": 0.0340545321074315,
+   "Health": 0.02,
+   "Software": 0.013631657424453656,
+   "AI Infrastructure": 0.01071282500776365
+  },
+  "top_risk_contributors": {
+   "ASML": 0.14298224486258493,
+   "TSM": 0.13777550220110782,
+   "ABNB": 0.10983726913855948,
+   "ANET": 0.10367371806463792,
+   "PANW": 0.09440111181813315
+  },
+  "limits": {
+   "name weight <= 8% of sleeve": true,
+   "sector weight <= 30% of sleeve": true,
+   "ex-ante vol <= 25%": true,
+   "at least 12 names": true,
+   "no name > 15% of risk": true
+  },
+  "passed": true
+ },
+ "positions": [
+  {
+   "ticker": "LLY",
+   "name": "LLY",
+   "sector": "Health",
+   "ai_layer": NaN,
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 1348.34,
+   "shares": 1,
+   "notional": 1348.34,
+   "trade_shares": 1.0,
+   "alpha": 1.4381,
+   "view": 0.6,
+   "exp_excess_return": 0.0625,
+   "vol": 0.3526,
+   "beta": 0.3204,
+   "ret_3m": 0.0826,
+   "dist_ma50": 0.0654,
+   "dist_ma200": 0.2093,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 1,
+     "conviction": 0.6,
+     "thesis": "Fact: Q3 2026 revenue +39% to $24.4bn; FY2026 revenue guidance raised to $91-92bn from $85-87bn; oral GLP-1 Foundayo already at $184m quarterly sales; retatrutide Phase 3 positive. Forward P/E cited ~33x versus a 5-year average of ~40x. Inference: the only large-cap in scope with accelerating organic growth that is unrelated to oil or AI capex; quality is real, not an artefact.",
+     "risks": "Valuation: average analyst target cited ~$1,330-1,337 is below the $1,349.98 snapshot price, so upside depends on further estimate raises. Headline non-GAAP EPS guide was trimmed to $35.00-36.00 by ~$4.2bn acquired IPR&D charges. Zepbound realised prices falling; drug-pricing policy. Stock closed at a high of $1,443.50 on Nov 13 and is ~6% lower in the snapshot."
+    }
+   ]
+  },
+  {
+   "ticker": "ABNB",
+   "name": "Airbnb",
+   "sector": "Trading",
+   "ai_layer": NaN,
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 170.51,
+   "shares": 11,
+   "notional": 1875.61,
+   "trade_shares": 11.0,
+   "alpha": 1.1344,
+   "view": 0.5,
+   "exp_excess_return": 0.0915,
+   "vol": 0.3886,
+   "beta": 1.0002,
+   "ret_3m": -0.1036,
+   "dist_ma50": 0.005,
+   "dist_ma200": 0.1336,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 1,
+     "conviction": 0.5,
+     "thesis": "Fact: Q3 2026 revenue $4.87bn (+19%) vs $4.75bn expected, gross booking value +21% to $27.7bn, nights booked +16% (about +13% excluding Reserve Now Pay Later); FY revenue growth outlook raised to high-teens, adjusted EBITDA margin ~36%, new $12bn buyback authorisation (about 12% of the $100.6bn market cap in the file). Net cash $4.9bn. Inference: growth is re-accelerating with a capital-return backstop at a ~5% FCF yield.",
+     "risks": "Management said Q3 was the peak of the pay-later net benefit, so Q4 nights growth guides lower (at least low-double-digit) as cancellations catch up; EPS was flattered by a $135m lower tax provision. Discretionary travel is exposed if the selloff and ~5% 10-year yields hit consumers. Figures from secondary coverage of the shareholder letter."
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "sector": "Hyperscaler",
+   "ai_layer": "Cloud & frontier models",
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 483.82,
+   "shares": 4,
+   "notional": 1935.28,
+   "trade_shares": 4.0,
+   "alpha": 0.9445,
+   "view": 0.65,
+   "exp_excess_return": 0.0877,
+   "vol": 0.3395,
+   "beta": 0.9912,
+   "ret_3m": -0.0052,
+   "dist_ma50": -0.0675,
+   "dist_ma200": 0.0948,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 1,
+     "conviction": 0.65,
+     "thesis": "Best-funded AI franchise with AI revenue visible: FQ1 FY27 (reported 2026-10-28) Azure +48% to $33.2B, quarterly capex $45.2B but FCF still +$18.6B. CY2026 capex trimmed to ~$170B from $175B because third-party capacity slipped, not because demand fell; FY27 capex still guided up. Earnings yield 4.0%, operating margin 47% (candidates file). Self-funded, so it gains share if neoclouds cannot finance.",
+     "risks": "FCF down 27% y/y; exposure to OpenAI, whose funding round reportedly closed ~$11B against a $30B target (WSJ via secondary sources, early Nov 2026); below MA50; next catalyst not until late January."
+    }
+   ]
+  },
+  {
+   "ticker": "XOM",
+   "name": "XOM",
+   "sector": "Rotation",
+   "ai_layer": NaN,
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 160.13,
+   "shares": 12,
+   "notional": 1921.56,
+   "trade_shares": 12.0,
+   "alpha": 1.2915,
+   "view": 0.0,
+   "exp_excess_return": 0.0326,
+   "vol": 0.2729,
+   "beta": -0.5257,
+   "ret_3m": -0.0177,
+   "dist_ma50": -0.049,
+   "dist_ma200": 0.0339,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 0,
+     "conviction": 0.5,
+     "thesis": "Fact: Q3 2026 adjusted EPS $4.23 vs ~$3.90 expected, FCF $19.1bn, $9.4bn returned in the quarter, $20bn buyback planned for 2027, Q4 dividend raised to $1.07; net debt $22.1bn. Energy Products earnings jumped to $9.1bn from $4.1bn while upstream fell to $7.3bn. Inference: the beat was a refining-margin windfall from the supply disruption; with crude down ~15% in November and margins likely to normalise, trailing growth and yield overstate forward earnings. Committed buyback and balance sheet limit downside.",
+     "risks": "Crude and crack spreads falling; shares fell ~4% on Nov 18. Upside if Middle East supply is disrupted again. Forward consensus not found."
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "sector": "Hyperscaler",
+   "ai_layer": "Cloud & frontier models",
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 343.41,
+   "shares": 5,
+   "notional": 1717.05,
+   "trade_shares": 5.0,
+   "alpha": 1.2489,
+   "view": 0.6,
+   "exp_excess_return": 0.0607,
+   "vol": 0.2487,
+   "beta": 0.6046,
+   "ret_3m": 0.1074,
+   "dist_ma50": 0.0053,
+   "dist_ma200": 0.1342,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 1,
+     "conviction": 0.6,
+     "thesis": "The capex-light hyperscaler: no AI build-out to fund, so the price-of-capital shock that is hitting the group does not touch it. FQ4 2026 (reported 2026-11-02) revenue $114.5B +12% vs 9-11% guidance, iPhone $57.6B +17.5%, December quarter guided to be the best revenue quarter in company history with iPhone Duo (on sale 2026-10-23) all incremental. Only AI-chain candidate above both MA50 and MA200.",
+     "risks": "Management flagged memory-cost pressure on margins and supply constraints; earnings yield 2.65% / P/S 10.4 (candidates file) is not cheap; AI exposure is as a consumer of others' models, not a seller - this is a quality/defensive view, not an AI-growth view."
+    }
+   ]
+  },
+  {
+   "ticker": "CVX",
+   "name": "CVX",
+   "sector": "Rotation",
+   "ai_layer": NaN,
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 208.72,
+   "shares": 9,
+   "notional": 1878.48,
+   "trade_shares": 9.0,
+   "alpha": 1.5856,
+   "view": 0.0,
+   "exp_excess_return": 0.0346,
+   "vol": 0.2477,
+   "beta": -0.496,
+   "ret_3m": 0.0363,
+   "dist_ma50": -0.0234,
+   "dist_ma200": 0.0797,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 0,
+     "conviction": 0.5,
+     "thesis": "Fact: Q3 2026 (reported Oct 30) adjusted EPS $5.28, operating cash flow ~$16bn, net debt cut $7.8bn, buybacks ~$2.5bn; downstream earned ~$4.9bn on high refining margins. Inference: the +35% revenue / +180% net income growth and 8% FCF yield the engine rewards are peak-cycle numbers earned at ~$100+ Brent; with Brent now ~$92 and a forecast surplus, forward earnings are likely lower, so the stock is fairly priced rather than cheap. Balance sheet and payout are solid, which argues against an outright avoid.",
+     "risks": "Falling crude and refining margins; shares fell ~4% on Nov 18 with oil. Upside risk if Hormuz disruption returns. Forward consensus EPS not found."
+    }
+   ]
+  },
+  {
+   "ticker": "UPS",
+   "name": "UPS",
+   "sector": "Trading",
+   "ai_layer": NaN,
+   "weight": 0.02,
+   "sleeve_weight": 0.08,
+   "price": 106.04,
+   "shares": 18,
+   "notional": 1908.72,
+   "trade_shares": 18.0,
+   "alpha": 0.6731,
+   "view": 0.45,
+   "exp_excess_return": 0.0603,
+   "vol": 0.2981,
+   "beta": 0.737,
+   "ret_3m": 0.0476,
+   "dist_ma50": 0.0583,
+   "dist_ma200": 0.0446,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 1,
+     "conviction": 0.45,
+     "thesis": "Fact: Q3 2026 revenue +6.7% to $22.9bn, adjusted EPS $1.69 vs $1.63 expected; FY2026 guidance raised to revenue ~$92.6bn, adjusted EPS ~$7.28 and adjusted FCF ~$6.1bn; Q4 guide above consensus. Inference: at $106.46 that is ~14.6x guided EPS (my arithmetic) with a ~7% FCF yield, estimates moving up and the deliberate Amazon volume reduction largely behind it - cheap, improving and not AI- or oil-beta.",
+     "risks": "US average daily volume still expected down y/y in Q4; GAAP EPS $1.37 after a $182m goodwill impairment and transformation costs; high diesel prices; peak-season execution; freight is cyclical if the selloff reaches the real economy. Dividend coverage not checked."
+    }
+   ]
+  },
+  {
+   "ticker": "TSM",
+   "name": "Taiwan Semis",
+   "sector": "Semis",
+   "ai_layer": "Compute & semis",
+   "weight": 0.0173,
+   "sleeve_weight": 0.0694,
+   "price": 320.82,
+   "shares": 5,
+   "notional": 1604.08,
+   "trade_shares": 5.0,
+   "alpha": 0.6264,
+   "view": 0.65,
+   "exp_excess_return": 0.1524,
+   "vol": 0.4328,
+   "beta": 2.2137,
+   "ret_3m": -0.2157,
+   "dist_ma50": -0.24,
+   "dist_ma200": -0.2025,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 1,
+     "conviction": 0.65,
+     "thesis": "The chokepoint with monthly hard data: October 2026 revenue NT$586.89B, +59.7% y/y and +14.7% m/m, a record and above the NT$560-570B analysts expected (reported 2026-11-10); Q4 guide US$52.3-54.3B. Operating margin 58% (candidates file). Stock is -22% 1m and 20% below MA200 on no company-specific bad news: this is de-rating, not an earnings downgrade.",
+     "risks": "Tighter export controls under the incoming Congress; NVDA-related probe spilling into China chip policy; any hyperscaler 2027 capex cut shows up here with a lag; still in a downtrend."
+    }
+   ]
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML",
+   "sector": "Semis",
+   "ai_layer": "Compute & semis",
+   "weight": 0.0167,
+   "sleeve_weight": 0.0668,
+   "price": 1263.67,
+   "shares": 1,
+   "notional": 1263.67,
+   "trade_shares": 1.0,
+   "alpha": 0.6119,
+   "view": 0.55,
+   "exp_excess_return": 0.1553,
+   "vol": 0.4931,
+   "beta": 2.2625,
+   "ret_3m": -0.2728,
+   "dist_ma50": -0.2215,
+   "dist_ma200": -0.209,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 1,
+     "conviction": 0.55,
+     "thesis": "Q3 2026 (reported 2026-10-14) record sales ~EUR11.7B, +~55% y/y, gross margin 57.5%, FY2026 sales guidance raised to EUR44-45B, and management says 2027-28 tool supply is short of demand. Orders are multi-year and placed by TSMC/memory makers, one step removed from AI-lab funding. -36% off high.",
+     "risks": "No longer publishes quarterly bookings, so order momentum is not verifiable; China exposure to tighter export controls; semicap is late-cycle if capex growth plateaus in 2027."
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "name": "Meta",
+   "sector": "Hyperscaler",
+   "ai_layer": "Cloud & frontier models",
+   "weight": 0.0157,
+   "sleeve_weight": 0.0629,
+   "price": 563.98,
+   "shares": 2,
+   "notional": 1127.97,
+   "trade_shares": 2.0,
+   "alpha": 0.9487,
+   "view": 0.0,
+   "exp_excess_return": 0.0894,
+   "vol": 0.4202,
+   "beta": 1.3895,
+   "ret_3m": 0.0097,
+   "dist_ma50": -0.1665,
+   "dist_ma200": -0.1018,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 0,
+     "conviction": 0.5,
+     "thesis": "Core ads business is strong (revenue +26% y/y, operating margin 33%, earnings yield 5.3% - candidates file) and the stock is the cheapest hyperscaler. But it is funding AI capex ($135-145B for 2026, Q3 capex $34.9B) with an equity raise of up to ~$95B announced 2026-10-26, including new non-voting Class C shares - the clearest case in the group of capex outrunning internal cash flow, with no external cloud revenue to monetise it. Fell 7% the day after results (2026-10-22).",
+     "risks": "Dilution and governance (non-voting class); no 2027 capex guide found; 17% below MA50 and below MA200 - one bad month from the knife filter."
+    }
+   ]
+  },
+  {
+   "ticker": "WMT",
+   "name": "WMT",
+   "sector": "Rotation",
+   "ai_layer": NaN,
+   "weight": 0.0146,
+   "sleeve_weight": 0.0583,
+   "price": 128.01,
+   "shares": 11,
+   "notional": 1408.16,
+   "trade_shares": 11.0,
+   "alpha": 0.7385,
+   "view": 0.45,
+   "exp_excess_return": 0.037,
+   "vol": 0.2681,
+   "beta": -0.0747,
+   "ret_3m": 0.2021,
+   "dist_ma50": 0.0975,
+   "dist_ma200": 0.0786,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 1,
+     "conviction": 0.45,
+     "thesis": "Fact: fiscal Q3 2027 reported Nov 19: revenue $188.8bn (+5.2%), adjusted operating income +5.5%, US e-commerce +23%, marketplace/fulfilment services +49%; FY guidance raised to net sales +4.9-5.2% and adjusted EPS $2.84-2.89. Inference: fresh beat-and-raise removes near-term earnings risk and the business gains share when consumers trade down; one of few names with positive 1-month return (+6%). Conviction capped by valuation: ~45x the guidance midpoint at $128.38 (my arithmetic).",
+     "risks": "Rich multiple with the 10-year near 5%; reported operating income +16% is flattered by a $700m PhonePe charge a year ago; management cited >$2bn of extra diesel/transport cost this year. Post-earnings share reaction not found."
+    }
+   ]
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto",
+   "sector": "Software",
+   "ai_layer": "AI applications & data",
+   "weight": 0.0136,
+   "sleeve_weight": 0.0545,
+   "price": 344.33,
+   "shares": 3,
+   "notional": 1032.99,
+   "trade_shares": 3.0,
+   "alpha": 0.851,
+   "view": 0.6,
+   "exp_excess_return": 0.1184,
+   "vol": 0.527,
+   "beta": 1.2861,
+   "ret_3m": -0.0187,
+   "dist_ma50": -0.0629,
+   "dist_ma200": 0.2237,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 1,
+     "conviction": 0.6,
+     "thesis": "Freshest positive print in scope: FQ1 FY27 (reported 2026-11-18) revenue $3.45B +39% y/y, FY27 revenue guidance raised to $14.52-14.57B from $14.10-14.20B; lifted the whole security group on 2026-11-19. Security spend is not funded by the AI capex cycle and rises with AI adoption. Event risk is now behind it.",
+     "risks": "Headline growth includes acquired revenue (organic split not verified); P/S 24 (candidates file); below MA50."
+    }
+   ]
+  },
+  {
+   "ticker": "BRK-B",
+   "name": "BRK-B",
+   "sector": "Rotation",
+   "ai_layer": NaN,
+   "weight": 0.0116,
+   "sleeve_weight": 0.0465,
+   "price": 568.39,
+   "shares": 2,
+   "notional": 1136.77,
+   "trade_shares": 2.0,
+   "alpha": 1.1589,
+   "view": 0.6,
+   "exp_excess_return": 0.0328,
+   "vol": 0.151,
+   "beta": 0.0922,
+   "ret_3m": 0.127,
+   "dist_ma50": 0.0588,
+   "dist_ma200": 0.131,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 1,
+     "conviction": 0.6,
+     "thesis": "Fact: Q3 2026 operating profit fell 6% to $12.71bn (underwriting profit -43%, Geico pretax -45%) but beat the FactSet estimate; Berkshire repurchased $9.6bn of stock in Q3 plus ~$2bn in October, and held $356.9bn of cash at end-September. Inference: record buybacks signal management sees the shares below intrinsic value, and the cash pile both earns a high short rate and is optionality in a market where breadth above MA50 is 12%. Lowest-vol name in scope (15%).",
+     "risks": "Insurance margins deteriorating (Geico loss costs and ad spend); the +79% net income growth in the engine is investment mark-to-market, not operations. Data flag: market_cap in the candidates file ($0.8bn) is wrong, so any value metric for this row is unusable."
+    }
+   ]
+  },
+  {
+   "ticker": "ANET",
+   "name": "ANET",
+   "sector": "AI Infrastructure",
+   "ai_layer": "Datacenter, neocloud & power gear",
+   "weight": 0.0107,
+   "sleeve_weight": 0.0429,
+   "price": 166.92,
+   "shares": 6,
+   "notional": 1001.52,
+   "trade_shares": 6.0,
+   "alpha": 0.6523,
+   "view": 0.6,
+   "exp_excess_return": 0.1763,
+   "vol": 0.5842,
+   "beta": 2.4429,
+   "ret_3m": -0.1128,
+   "dist_ma50": -0.1306,
+   "dist_ma200": -0.0098,
+   "analyst_notes": [
+    {
+     "agent": "ai-stocks-research-analyst",
+     "view": 1,
+     "conviction": 0.6,
+     "thesis": "Cleanest balance sheet in the infrastructure layer and the only AI Infrastructure name that survived the screen. Q3 2026 (reported 2026-11-03) revenue $3.66B +58.5% vs $3.3B guide, non-GAAP operating margin 49.1%; Q4 guided $3.9-4.0B vs ~$3.6B consensus; 2027 growth guided 38-40% (~$18.5B). Sells to the self-funded hyperscalers, not to levered neoclouds.",
+     "risks": "Hyperscaler customer concentration; 2027 guide assumes the capex plans hold; P/S 17.7; 13% below MA50."
+    }
+   ]
+  },
+  {
+   "ticker": "COST",
+   "name": "COST",
+   "sector": "Rotation",
+   "ai_layer": NaN,
+   "weight": 0.0097,
+   "sleeve_weight": 0.0388,
+   "price": 1102.21,
+   "shares": 0,
+   "notional": 0.0,
+   "trade_shares": 0.0,
+   "alpha": 0.8508,
+   "view": 0.0,
+   "exp_excess_return": 0.0236,
+   "vol": 0.2023,
+   "beta": -0.1698,
+   "ret_3m": 0.1363,
+   "dist_ma50": 0.1181,
+   "dist_ma200": 0.1289,
+   "analyst_notes": [
+    {
+     "agent": "stock-research-analyst",
+     "view": 0,
+     "conviction": 0.5,
+     "thesis": "Fact: October retail-month net sales $24.50bn (+12.6%); first nine weeks of fiscal Q1 +12.8%; comps +7.3% excluding gasoline and FX (gas inflation added ~3.9 points to the reported 11.1%); digital +22.5%. Inference: operating momentum is excellent, but the file shows a 1.9% earnings yield (~53x trailing) with the 10-year Treasury near 5%, and the stock is 0.75% off its high and 12% above MA50 - it is being bought as a shelter, leaving little margin for error.",
+     "risks": "Multiple compression if yields rise further or the defensive bid unwinds; headline comps are inflated by fuel prices. Fiscal Q1 report inferred for Dec 10 (not company-confirmed)."
+    }
+   ]
+  }
+ ],
+ "exits": [],
+ "cash_dollars": 78839.8,
+ "vetoes": {},
+ "views_used": 40,
+ "alternatives": {
+  "max_sharpe": {
+   "exp_excess_return": 0.08154766111687652,
+   "vol": 0.1336884253947791,
+   "sharpe": 0.6099829575826627,
+   "max_weight": 0.08,
+   "effective_n": 15.00742275068042
+  },
+  "min_var": {
+   "exp_excess_return": 0.07307381180722529,
+   "vol": 0.12597597532009425,
+   "sharpe": 0.5800614888795339,
+   "max_weight": 0.08000000000000002,
+   "effective_n": 14.222934026147554
+  },
+  "inv_vol": {
+   "exp_excess_return": 0.07134693650525752,
+   "vol": 0.13359204692399915,
+   "sharpe": 0.534065748284005,
+   "max_weight": 0.08,
+   "effective_n": 20.9516943066882
+  },
+  "alpha_tilt": {
+   "exp_excess_return": 0.07029882874020164,
+   "vol": 0.13201587898220013,
+   "sharpe": 0.5325028267976774,
+   "max_weight": 0.07999999999999999,
+   "effective_n": 20.46259964503525
+  },
+  "equal": {
+   "exp_excess_return": 0.08773910301119259,
+   "vol": 0.19255396091148946,
+   "sharpe": 0.4556598191793275,
+   "max_weight": 0.04,
+   "effective_n": 25.0
+  }
+ },
+ "not_selected": [
+  {
+   "ticker": "ZETA",
+   "alpha": 1.3283,
+   "view": 0.5
+  },
+  {
+   "ticker": "U",
+   "alpha": 0.6137,
+   "view": 0.4
+  },
+  {
+   "ticker": "OSCR",
+   "alpha": 1.4105,
+   "view": 0.0
+  },
+  {
+   "ticker": "OKTA",
+   "alpha": 1.2512,
+   "view": 0.0
+  },
+  {
+   "ticker": "RBRK",
+   "alpha": 1.0857,
+   "view": 0.0
+  },
+  {
+   "ticker": "CRWD",
+   "alpha": 1.0766,
+   "view": 0.0
+  },
+  {
+   "ticker": "JNJ",
+   "alpha": 1.0492,
+   "view": 0.0
+  },
+  {
+   "ticker": "DE",
+   "alpha": 0.8277,
+   "view": 0.0
+  },
+  {
+   "ticker": "NET",
+   "alpha": 0.8161,
+   "view": 0.0
+  },
+  {
+   "ticker": "WDAY",
+   "alpha": 0.7188,
+   "view": 0.0
+  }
+ ]
+}

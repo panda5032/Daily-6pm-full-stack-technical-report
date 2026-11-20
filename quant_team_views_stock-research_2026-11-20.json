@@ -1,0 +1,262 @@
+{
+ "agent": "stock-research-analyst",
+ "as_of": "2026-11-20",
+ "views": [
+  {
+   "ticker": "USO",
+   "agent": "stock-research-analyst",
+   "view": -1,
+   "conviction": 0.55,
+   "thesis": "ETF, judged as crude exposure, not a company. Fact: Brent was ~$110.74 on Oct 21 and ~$92.4-92.5 on Nov 16-17 (WTI $85.72), after a 16% weekly drop in early November as Hormuz flows and OPEC output recovered; IEA sees a 1.7 mb/d surplus in Q4 2026 and Goldman forecasts $88 Brent for 2027. Inference: the 12-1 momentum that ranks USO #1 is the 2026 Iran-war premium, which is now unwinding; the factor score is backward-looking.",
+   "risks": "Two-sided headline risk: reported (unverified) mine strikes in Hormuz or a breakdown in US-Iran restraint would spike crude. No settlement price found after Nov 17. Roll yield/backwardation effect not checked.",
+   "next_earnings": "n/a (ETF)",
+   "sources": [
+    "https://www.nationthailand.com/news/world/40073582",
+    "https://www.nationthailand.com/news/world/40073309",
+    "https://fortune.com/article/price-of-oil-10-21-2026/",
+    "https://boereport.com/2026/11/15/oil-prices-fall-on-expectations-of-coming-supply-surplus/amp/"
+   ]
+  },
+  {
+   "ticker": "CVX",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Fact: Q3 2026 (reported Oct 30) adjusted EPS $5.28, operating cash flow ~$16bn, net debt cut $7.8bn, buybacks ~$2.5bn; downstream earned ~$4.9bn on high refining margins. Inference: the +35% revenue / +180% net income growth and 8% FCF yield the engine rewards are peak-cycle numbers earned at ~$100+ Brent; with Brent now ~$92 and a forecast surplus, forward earnings are likely lower, so the stock is fairly priced rather than cheap. Balance sheet and payout are solid, which argues against an outright avoid.",
+   "risks": "Falling crude and refining margins; shares fell ~4% on Nov 18 with oil. Upside risk if Hormuz disruption returns. Forward consensus EPS not found.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://boereport.com/2026/10/30/chevron-reports-third-quarter-2026-results/amp/",
+    "https://fortune.com/company/chevron/earnings/q3-2026/",
+    "https://www.nationthailand.com/news/world/40073582"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "agent": "stock-research-analyst",
+   "view": 1,
+   "conviction": 0.6,
+   "thesis": "Fact: Q3 2026 revenue +39% to $24.4bn; FY2026 revenue guidance raised to $91-92bn from $85-87bn; oral GLP-1 Foundayo already at $184m quarterly sales; retatrutide Phase 3 positive. Forward P/E cited ~33x versus a 5-year average of ~40x. Inference: the only large-cap in scope with accelerating organic growth that is unrelated to oil or AI capex; quality is real, not an artefact.",
+   "risks": "Valuation: average analyst target cited ~$1,330-1,337 is below the $1,349.98 snapshot price, so upside depends on further estimate raises. Headline non-GAAP EPS guide was trimmed to $35.00-36.00 by ~$4.2bn acquired IPR&D charges. Zepbound realised prices falling; drug-pricing policy. Stock closed at a high of $1,443.50 on Nov 13 and is ~6% lower in the snapshot.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://investor.lilly.com/node/55191",
+    "https://www.zacks.com/stock/news/3018734/lly-stock-jumps-as-q3-earnings-beat-estimates-2026-sales-view-raised",
+    "https://www.tikr.com/blog/eli-lilly-gained-10-in-a-week-to-a-new-52-week-high-is-there-room-to-run"
+   ]
+  },
+  {
+   "ticker": "OSCR",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.35,
+   "thesis": "Fact: Q3 2026 EPS $0.49 vs an expected loss, MLR 84.0% (88.5% a year ago), FY2026 earnings-from-operations guidance raised a third time to $850-950m; 2027 rates up ~14% on average. But $250m of Q3 revenue was a risk-adjustment estimate change and guidance implies a sizeable Q4 loss. Inference: the 53% 'FCF yield' and net-cash figures that drive its value z-score of 2.25 are insurer float (premiums and risk-adjustment payables), not distributable cash - the factor score overstates cheapness. On operating earnings it is still inexpensive, hence neutral rather than avoid.",
+   "risks": "Policy: CMS 'CRUSH' anti-fraud proposed rule (Nov 16) covers the ACA marketplace as well as Medicare Advantage; ACA subsidy outcome unresolved. Risk-adjustment true-ups can reverse. Stock -25% in a month with 63% vol; reported CFO share sale (date unverified). Reason for the full November drop not conclusively verified.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://finviz.com/news/417428/oscar-health-turns-an-expected-loss-into-a-049-profit-and-raises-guidance-again-but-a-250-million-risk-adjustment-gain-did-much-of-the-work",
+    "https://www.fiercehealthcare.com/payers/oscar-health-boasts-strongest-year-its-history-after-outperforming-q3",
+    "https://www.beckerspayer.com/?p=30579"
+   ]
+  },
+  {
+   "ticker": "XOM",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Fact: Q3 2026 adjusted EPS $4.23 vs ~$3.90 expected, FCF $19.1bn, $9.4bn returned in the quarter, $20bn buyback planned for 2027, Q4 dividend raised to $1.07; net debt $22.1bn. Energy Products earnings jumped to $9.1bn from $4.1bn while upstream fell to $7.3bn. Inference: the beat was a refining-margin windfall from the supply disruption; with crude down ~15% in November and margins likely to normalise, trailing growth and yield overstate forward earnings. Committed buyback and balance sheet limit downside.",
+   "risks": "Crude and crack spreads falling; shares fell ~4% on Nov 18. Upside if Middle East supply is disrupted again. Forward consensus not found.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results",
+    "https://www.ogj.com/general-interest/companies/news/55415606/exxonmobil-third-quarter-profit-doubles-as-refining-margins-surge",
+    "https://www.ajc.com/news/2026/11/wall-street-shakes-again-as-nvidia-and-other-jittery-ai-stocks-swing-lower/"
+   ]
+  },
+  {
+   "ticker": "BRK-B",
+   "agent": "stock-research-analyst",
+   "view": 1,
+   "conviction": 0.6,
+   "thesis": "Fact: Q3 2026 operating profit fell 6% to $12.71bn (underwriting profit -43%, Geico pretax -45%) but beat the FactSet estimate; Berkshire repurchased $9.6bn of stock in Q3 plus ~$2bn in October, and held $356.9bn of cash at end-September. Inference: record buybacks signal management sees the shares below intrinsic value, and the cash pile both earns a high short rate and is optionality in a market where breadth above MA50 is 12%. Lowest-vol name in scope (15%).",
+   "risks": "Insurance margins deteriorating (Geico loss costs and ad spend); the +79% net income growth in the engine is investment mark-to-market, not operations. Data flag: market_cap in the candidates file ($0.8bn) is wrong, so any value metric for this row is unusable.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://www.businessinsurance.com/berkshire-hathaway-speeds-up-stock-buybacks-though-profit-falls/",
+    "https://gvwire.com/2026/11/07/berkshire-hathaway-accelerates-stock-buybacks-operating-profit-falls/",
+    "https://stockanalysis.com/news/berkshire-q3-operating-earnings-fall-buybacks/"
+   ]
+  },
+  {
+   "ticker": "ABNB",
+   "agent": "stock-research-analyst",
+   "view": 1,
+   "conviction": 0.5,
+   "thesis": "Fact: Q3 2026 revenue $4.87bn (+19%) vs $4.75bn expected, gross booking value +21% to $27.7bn, nights booked +16% (about +13% excluding Reserve Now Pay Later); FY revenue growth outlook raised to high-teens, adjusted EBITDA margin ~36%, new $12bn buyback authorisation (about 12% of the $100.6bn market cap in the file). Net cash $4.9bn. Inference: growth is re-accelerating with a capital-return backstop at a ~5% FCF yield.",
+   "risks": "Management said Q3 was the peak of the pay-later net benefit, so Q4 nights growth guides lower (at least low-double-digit) as cancellations catch up; EPS was flattered by a $135m lower tax provision. Discretionary travel is exposed if the selloff and ~5% 10-year yields hit consumers. Figures from secondary coverage of the shareholder letter.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://247wallst.com/cards/airbnb-q3-2026-earnings-abnb-01m6preqjfxp9989tfpqgtmzd5",
+    "https://www.valuethemarkets.com/news/airbnb-nasdaq-abnb-beats-estimates-raises-2026-outlook",
+    "https://www.rentalscaleup.com/airbnb-q3-2026-earnings/"
+   ]
+  },
+  {
+   "ticker": "JNJ",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Fact: Q3 2026 sales $25.4bn (+5.9%), adjusted EPS $2.59 (down ~7.5% y/y), GAAP EPS $0.09 after $5.5bn litigation charges; FY2026 guidance raised to sales $101.0-101.4bn and adjusted EPS $11.05-11.15. Inference: the engine's -96% net income growth (growth z -1.25) is a one-off talc charge and understates the business, but at $270.77 the stock is ~24x the guidance midpoint (my arithmetic) for mid-single-digit growth - a fair defensive, not a bargain.",
+   "risks": "Talc resolution ($5.5bn+ for ~76,000 claims) is still a proposal; Stelara biosimilars; Orthopaedics separation. Dec 8, 2026 investor event will give 2027 guidance - a known catalyst date.",
+   "next_earnings": "unknown (investor event 2026-12-08)",
+   "sources": [
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+    "https://finviz.com/news/401522/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+    "https://www.mddionline.com/business/j-j-inches-closer-to-100-billion-will-a-medtech-stumble-cloud-the-story-"
+   ]
+  },
+  {
+   "ticker": "GME",
+   "agent": "stock-research-analyst",
+   "view": -1,
+   "conviction": 0.45,
+   "thesis": "Fact: revenue is shrinking (-19% y/y in the file); the 'record' June-quarter profit of $389.6m included a $268.4m unrealised derivative gain on eBay stock (adjusted $179.3m). GameStop's $56bn bid for eBay was rejected and it has since built a stake reported at ~$4.9-5bn (7-10% depending on source) alongside ~$5bn cash and ~$3bn debt as of Aug 1. Inference: trend, relative strength and the 7.5% earnings yield are driven by the eBay campaign and mark-to-market gains, not the operating business - a takeover-saga/quality trap, and the equity is now a concentrated, partly debt-funded bet on one stock in a falling market.",
+   "risks": "Upside risk from retail squeezes and CEO Ryan Cohen's open-market buying (>5m shares in 2026). A proxy fight or new bid for eBay is an open-ended event. Could not find any October-November 2026 news on the eBay situation.",
+   "next_earnings": "2026-12-08 (estimate, unconfirmed)",
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/gamestop-jumps-10-record-profit-132308511.html",
+    "https://www.shacknews.com/article/150553/gamestop-gme-q2-2026-cash-ebay-stock",
+    "https://www.barchart.com/story/news/3391865/gamestop-just-raised-its-stake-in-ebay-to-10-after-the-board-rejected-its-takeover-bid-ryan-cohen-is-preparing-for-a-bigger-fight",
+    "https://ca.finance.yahoo.com/quote/gme/"
+   ]
+  },
+  {
+   "ticker": "COST",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Fact: October retail-month net sales $24.50bn (+12.6%); first nine weeks of fiscal Q1 +12.8%; comps +7.3% excluding gasoline and FX (gas inflation added ~3.9 points to the reported 11.1%); digital +22.5%. Inference: operating momentum is excellent, but the file shows a 1.9% earnings yield (~53x trailing) with the 10-year Treasury near 5%, and the stock is 0.75% off its high and 12% above MA50 - it is being bought as a shelter, leaving little margin for error.",
+   "risks": "Multiple compression if yields rise further or the defensive bid unwinds; headline comps are inflated by fuel prices. Fiscal Q1 report inferred for Dec 10 (not company-confirmed).",
+   "next_earnings": "2026-12-10 (inferred, unconfirmed)",
+   "sources": [
+    "https://www.morningstar.com/news/globe-newswire/9870370/costco-wholesale-corporation-reports-october-sales-results",
+    "https://zacks.com/stock/news/3025694/costco-s-october-net-sales-jump-12-6-as-digital-growth-accelerates",
+    "https://www.wallstreethorizon.com/costco-earnings-calendar"
+   ]
+  },
+  {
+   "ticker": "DE",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.45,
+   "thesis": "Fact: fiscal Q4 2026 results are due Wednesday Nov 25, when the first fiscal 2027 outlook is expected. At Q3 Deere raised FY2026 net income guidance to $4.75-5.00bn, said 2026 marks the bottom of the large-ag cycle, and flagged tariff expense rising from ~$750m net in FY2026 to a ~$1bn run rate in FY2027; FY2026 included $382m of tariff refunds. Inference: a cyclical-trough story priced at ~33x trailing earnings (3.0% earnings yield in the file) needs a strong FY2027 guide; no edge on that guide, so neutral until it is known.",
+   "risks": "EARNINGS IN 3 TRADING DAYS (2026-11-25) - stage around it. Tariff costs, farm income, higher financing rates for equipment buyers; net debt $55bn is mostly the captive finance arm.",
+   "next_earnings": "2026-11-25",
+   "sources": [
+    "https://finviz.com/news/421094/deere-to-announce-fourth-quarter-2026-financial-results",
+    "https://www.marketbeat.com/instant-alerts/deere-company-q3-earnings-call-highlights-2026-08-20/?.tsrc=rss",
+    "https://www.nasdaq.com/articles/deere-company-issues-fy26-guidance"
+   ]
+  },
+  {
+   "ticker": "WMT",
+   "agent": "stock-research-analyst",
+   "view": 1,
+   "conviction": 0.45,
+   "thesis": "Fact: fiscal Q3 2027 reported Nov 19: revenue $188.8bn (+5.2%), adjusted operating income +5.5%, US e-commerce +23%, marketplace/fulfilment services +49%; FY guidance raised to net sales +4.9-5.2% and adjusted EPS $2.84-2.89. Inference: fresh beat-and-raise removes near-term earnings risk and the business gains share when consumers trade down; one of few names with positive 1-month return (+6%). Conviction capped by valuation: ~45x the guidance midpoint at $128.38 (my arithmetic).",
+   "risks": "Rich multiple with the 10-year near 5%; reported operating income +16% is flattered by a $700m PhonePe charge a year ago; management cited >$2bn of extra diesel/transport cost this year. Post-earnings share reaction not found.",
+   "next_earnings": "unknown (Q3 just reported 2026-11-19)",
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/walmart-raises-fy2027-forecast-third-133101832.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/11/19/walmart-wmt-q3-2027-earnings-call-transcript/",
+    "https://progressivegrocer.com/price-investments-accelerated-delivery-drive-walmarts-q3-results"
+   ]
+  },
+  {
+   "ticker": "XLU",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.4,
+   "thesis": "ETF, judged as US utilities exposure. Fact: the Fed held at 3.75-4.00% on Oct 28 with two dissents in favour of a hike, and the 10-year yield was reported at 5.03% after the decision; on Nov 10 utilities fell as yields rebounded and on worries about a slowdown in AI infrastructure build-out. Inference: low volatility (16%) makes it a relative shelter, but the sector is squeezed from both sides - bond-proxy valuation against a ~5% risk-free rate, and the data-centre load-growth premium is exposed to the same AI unwind driving the selloff. Flat price over 1, 3 and 12 months is consistent with that.",
+   "risks": "Further rate hikes (hawkish dissenters); AI power-demand de-rating of the largest holdings; conversely a growth scare that pulls yields down would help. Current 10-year yield and XLU dividend yield not verified for Nov 20.",
+   "next_earnings": "n/a (ETF)",
+   "sources": [
+    "https://www.morningstar.com/news/dow-jones/2026111012983/utilities-down-as-treasury-yields-rise-utilities-roundup",
+    "https://www.azfamily.com/2026/10/28/federal-reserve-keeps-interest-rates-unchanged-ahead-midterms-despite-elevated-inflation/?outputType=amp",
+    "https://www.mufgresearch.com/rates/october-2026-fomc-recap/"
+   ]
+  },
+  {
+   "ticker": "UPS",
+   "agent": "stock-research-analyst",
+   "view": 1,
+   "conviction": 0.45,
+   "thesis": "Fact: Q3 2026 revenue +6.7% to $22.9bn, adjusted EPS $1.69 vs $1.63 expected; FY2026 guidance raised to revenue ~$92.6bn, adjusted EPS ~$7.28 and adjusted FCF ~$6.1bn; Q4 guide above consensus. Inference: at $106.46 that is ~14.6x guided EPS (my arithmetic) with a ~7% FCF yield, estimates moving up and the deliberate Amazon volume reduction largely behind it - cheap, improving and not AI- or oil-beta.",
+   "risks": "US average daily volume still expected down y/y in Q4; GAAP EPS $1.37 after a $182m goodwill impairment and transformation costs; high diesel prices; peak-season execution; freight is cyclical if the selloff reaches the real economy. Dividend coverage not checked.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001090727/000162828026067381/exhibit991-earningspressre.htm",
+    "https://www.webull.com/news/15820478296150016",
+    "https://www.logisticsmgmt.com/article/ups_posts_6.7_revenue_growth_in_q3_prepares_for_holiday_shipping_surge/"
+   ]
+  },
+  {
+   "ticker": "UNH",
+   "agent": "stock-research-analyst",
+   "view": -1,
+   "conviction": 0.5,
+   "thesis": "Fact: on Nov 16 CMS released the 'CRUSH' proposed rule (CMS-6098-P), projecting ~$90bn of savings over 10 years and expanding authority to audit Medicare Advantage insurers and recover overpayments, reportedly back to payment year 2018; UNH fell 5-10% on individual days that week and is -20% over the month. CMS premiums were 44% of 2025 revenue and the company has not sized the impact. Revenue is flat y/y in the file. Inference: the 'value' the engine sees (7.5% FCF yield) sits on earnings that now carry an unquantified retroactive liability; cheap for a reason until the rule is sized.",
+   "risks": "Rule is only proposed (comments due Jan 19, 2027) and earlier RADV rules were judged manageable, so a relief rally is possible. Also the weak 2027 MA rate notice from January. No analyst estimate of the clawback found.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://www.aha.org/news/headline/2026-11-17-cms-issues-proposed-rule-crush-initiative-addressing-fraud",
+    "https://stockanalysis.com/news/unitedhealth-humana-fall-cms-medicare-advantage-audit-rule/",
+    "https://www.trefis.com/articles/626290/why-is-unitedhealth-stock-falling/2026-11-18",
+    "https://www.beckershospitalreview.com/legal-regulatory-issues/cms-targets-90b-in-savings-with-sweeping-new-anti-fraud-rule/"
+   ]
+  },
+  {
+   "ticker": "PYPL",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.45,
+   "thesis": "Fact: Q3 2026 non-GAAP EPS $1.45 (+8%); FY guidance raised to ~$5.60 from $5.38 - about 9.6x at $53.61 (my arithmetic), 14% FCF yield in the file. But online branded checkout volume grew only 1-2% for a fourth straight quarter, revenue growth is 2%, and new CEO Enrique Lores plans to accelerate investment in 2027. Inference: optically the cheapest stock in scope, but the core franchise is not growing and 2027 margins are guided to absorb more spend - a classic value-trap profile until branded checkout turns.",
+   "risks": "A July 2026 headline referred to a Stripe takeover bid for PayPal; I could not verify its current status - if live, the share price embeds deal optionality and would fall if it lapses. EU de minimis change (~70bp headwind), competition from Apple Pay/Shop Pay.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://www.zacks.com/stock/news/3017136/paypal-q3-earnings-call-highlights-growth-and-2027-investments",
+    "https://www.fxcintel.com/research/analysis/ct-paypal-q3-2026-earnings",
+    "https://siliconangle.com/2026/07/28/paypal-tops-q2-estimates-raises-full-year-forecast-amid-stripe-takeover-bid/"
+   ]
+  },
+  {
+   "ticker": "JPM",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.5,
+   "thesis": "Fact: Q3 2026 net income $15.3bn (+6%), diluted EPS $5.57 (Zacks: adjusted $5.75, below its $5.94 consensus); NII +13% to $27.1bn and FY2026 NII guidance raised to ~$106.2bn, with ~$107bn ex-Markets pencilled for 2027; expenses +12%, a $539m reserve build mainly in Wholesale, fixed-income trading -4%. Inference: higher-for-longer rates support NII, but expense growth is outrunning revenue and wholesale credit is being reserved for as equity markets fall - balanced. The negative FCF yield in the file is a bank balance-sheet artefact and should be ignored.",
+   "risks": "Credit cycle if the selloff spreads (bank CEOs warned on rates and inflation; private-credit outflows reported); capital-markets revenue in a VIX-36 tape. 2027 NII figure is from one secondary source.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://www.zacks.com/stock/news/3006070/jpm-q3-earnings-lag-on-lower-fixed-income-markets-ib-offer-support",
+    "https://beinsure.com/news/jpmorgan-chase-net-income-rises-to-15-3bn/",
+    "https://www.news4jax.com/business/2026/10/13/big-banks-post-strong-q3-profits-but-warn-higher-rates-and-inflation-could-bite/"
+   ]
+  },
+  {
+   "ticker": "XYZ",
+   "agent": "stock-research-analyst",
+   "view": 0,
+   "conviction": 0.45,
+   "thesis": "Block. Fact: Q3 2026 (reported Nov 3) gross profit +22% to ~$3.24bn, Cash App gross profit +27%, record 29% adjusted operating margin; FY2026 guidance raised a third time to gross profit $12.626bn and adjusted EPS $4.15 (~17x at $70.46, my arithmetic). But Q4 gross profit growth is guided to ~15% and the preliminary 2027 outlook is 'at least 15%', while transaction, loan and receivable losses rose 66%. Inference: reasonable price for a decelerating grower whose incremental growth comes from consumer lending - not attractive to add into a risk-off tape.",
+   "risks": "Consumer credit losses on Cash App Borrow/Afterpay if the economy weakens; bitcoin gross profit halved to $52m and the stock trades with crypto (sector -35% in a month). GAAP earnings yield only 1.1%.",
+   "next_earnings": "unknown",
+   "sources": [
+    "https://finviz.com/news/415075/block-beats-and-raises-again-as-margins-hit-a-record-but-cash-app-and-lending-growth-keep-slowing",
+    "https://siliconangle.com/2026/11/03/block-shares-rise-after-third-quarter-beat-and-a-third-straight-guidance-raise/",
+    "https://quartr.com/events/block-inc-xyz-q3-2026_3sMlS6PI"
+   ]
+  }
+ ],
+ "vetoes": []
+}

@@ -1,0 +1,262 @@
+{
+ "as_of": "2026-11-20",
+ "window": [
+  "2023-12-11",
+  "2026-11-20"
+ ],
+ "rebalance_days": 21,
+ "cost_bps": 10,
+ "names": 25,
+ "risk_free": 0.04280835574849275,
+ "stats": {
+  "max_sharpe": {
+   "cagr": 0.3799,
+   "vol": 0.3229,
+   "sharpe": 1.0274,
+   "max_dd": -0.3704,
+   "calmar": 1.0256,
+   "total_return": 1.581,
+   "avg_turnover_per_rebalance": 0.7765,
+   "periods_beating_QQQ": 0.6389
+  },
+  "min_var": {
+   "cagr": 0.3061,
+   "vol": 0.2942,
+   "sharpe": 0.9102,
+   "max_dd": -0.3567,
+   "calmar": 0.8581,
+   "total_return": 1.1952,
+   "avg_turnover_per_rebalance": 0.8646,
+   "periods_beating_QQQ": 0.5278
+  },
+  "inv_vol": {
+   "cagr": 0.4144,
+   "vol": 0.3405,
+   "sharpe": 1.0638,
+   "max_dd": -0.3523,
+   "calmar": 1.1764,
+   "total_return": 1.7757,
+   "avg_turnover_per_rebalance": 0.7119,
+   "periods_beating_QQQ": 0.6389
+  },
+  "alpha_tilt": {
+   "cagr": 0.4131,
+   "vol": 0.3465,
+   "sharpe": 1.0486,
+   "max_dd": -0.3547,
+   "calmar": 1.1649,
+   "total_return": 1.7682,
+   "avg_turnover_per_rebalance": 0.678,
+   "periods_beating_QQQ": 0.6111
+  },
+  "equal": {
+   "cagr": 0.5378,
+   "vol": 0.43,
+   "sharpe": 1.1167,
+   "max_dd": -0.3915,
+   "calmar": 1.3735,
+   "total_return": 2.5505,
+   "avg_turnover_per_rebalance": 0.6588,
+   "periods_beating_QQQ": 0.6944
+  },
+  "max_sharpe+regime": {
+   "cagr": 0.3171,
+   "vol": 0.3014,
+   "sharpe": 0.924,
+   "max_dd": -0.3428,
+   "calmar": 0.925,
+   "total_return": 1.2501,
+   "avg_turnover_per_rebalance": 0.7519,
+   "periods_beating_QQQ": 0.6111
+  },
+  "EW universe": {
+   "cagr": 0.2545,
+   "vol": 0.2993,
+   "sharpe": 0.7643,
+   "max_dd": -0.3099,
+   "calmar": 0.8213,
+   "total_return": 0.9495,
+   "avg_turnover_per_rebalance": 0.208,
+   "periods_beating_QQQ": 0.4444
+  },
+  "SPY": {
+   "cagr": 0.1619,
+   "vol": 0.1576,
+   "sharpe": 0.7591,
+   "max_dd": -0.1876,
+   "calmar": 0.8632,
+   "total_return": 0.5555,
+   "avg_turnover_per_rebalance": 0.0,
+   "periods_beating_QQQ": 0.4444
+  },
+  "QQQ": {
+   "cagr": 0.1687,
+   "vol": 0.2143,
+   "sharpe": 0.6346,
+   "max_dd": -0.2277,
+   "calmar": 0.7409,
+   "total_return": 0.5824,
+   "avg_turnover_per_rebalance": 0.0,
+   "periods_beating_QQQ": 0.0
+  }
+ },
+ "by_year": {
+  "max_sharpe": {
+   "2023": 0.0376,
+   "2024": 0.6912,
+   "2025": 0.2541,
+   "2026": 0.1728
+  },
+  "min_var": {
+   "2023": 0.0385,
+   "2024": 0.3859,
+   "2025": 0.3822,
+   "2026": 0.1035
+  },
+  "inv_vol": {
+   "2023": 0.0417,
+   "2024": 0.5003,
+   "2025": 0.4724,
+   "2026": 0.2063
+  },
+  "alpha_tilt": {
+   "2023": 0.0409,
+   "2024": 0.5168,
+   "2025": 0.4381,
+   "2026": 0.2192
+  },
+  "equal": {
+   "2023": 0.0474,
+   "2024": 0.6495,
+   "2025": 0.5768,
+   "2026": 0.3033
+  },
+  "max_sharpe+regime": {
+   "2023": 0.0376,
+   "2024": 0.6538,
+   "2025": 0.1279,
+   "2026": 0.1625
+  },
+  "EW universe": {
+   "2023": 0.0616,
+   "2024": 0.4365,
+   "2025": 0.5219,
+   "2026": -0.16
+  },
+  "SPY": {
+   "2023": 0.037,
+   "2024": 0.2489,
+   "2025": 0.1772,
+   "2026": 0.0203
+  },
+  "QQQ": {
+   "2023": 0.0469,
+   "2024": 0.2558,
+   "2025": 0.2077,
+   "2026": -0.0033
+  }
+ },
+ "caveats": [
+  "SURVIVORSHIP / HINDSIGHT BIAS: the universe is today's hand-picked AI_Portfolios.xlsx list, so every method is flattered. Judge methods against 'EW universe' (same bias), not against SPY/QQQ.",
+  "Price factors only - fundamentals and analyst views are not point-in-time and are excluded.",
+  "Rebalance at the close of the signal bar; 10 bps one-way cost; no slippage, taxes or borrow."
+ ],
+ "recent_rebalances": [
+  {
+   "date": "2026-06-15",
+   "regime": "RISK-ON",
+   "top": [
+    "INTC",
+    "MU",
+    "AMD",
+    "HUT",
+    "DOCN",
+    "MRVL",
+    "COHR",
+    "LRCX",
+    "NBIS",
+    "AMAT"
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "regime": "NEUTRAL",
+   "top": [
+    "MU",
+    "AMD",
+    "DELL",
+    "OSCR",
+    "AMAT",
+    "PANW",
+    "INTC",
+    "DDOG",
+    "CRWD",
+    "MRVL"
+   ]
+  },
+  {
+   "date": "2026-08-14",
+   "regime": "RISK-ON",
+   "top": [
+    "PANW",
+    "DELL",
+    "CRWD",
+    "OKTA",
+    "OSCR",
+    "AMD",
+    "MU",
+    "SNOW",
+    "ZETA",
+    "DDOG"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "regime": "NEUTRAL",
+   "top": [
+    "CRWD",
+    "PANW",
+    "OKTA",
+    "DELL",
+    "ZETA",
+    "JNJ",
+    "ABNB",
+    "RBRK",
+    "OSCR",
+    "SNOW"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "regime": "RISK-ON",
+   "top": [
+    "OKTA",
+    "ZETA",
+    "DELL",
+    "CRWD",
+    "RBRK",
+    "U",
+    "CVX",
+    "TEAM",
+    "PANW",
+    "DT"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "regime": "NEUTRAL",
+   "top": [
+    "OKTA",
+    "CVX",
+    "ZETA",
+    "DE",
+    "LLY",
+    "AAPL",
+    "XOM",
+    "JNJ",
+    "GME",
+    "OSCR"
+   ]
+  }
+ ]
+}
