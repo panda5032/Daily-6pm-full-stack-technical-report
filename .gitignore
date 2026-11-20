@@ -12,3 +12,10 @@ trade_plan_charts/
 _data_cache/
 __pycache__/
 *.log
+!.claude/
+!.claude/agents/
+!.claude/agents/*.md
+!.claude/skills/
+!.claude/skills/quant-team/
+!.claude/skills/quant-team/SKILL.md
+!QUANT_TEAM.md
