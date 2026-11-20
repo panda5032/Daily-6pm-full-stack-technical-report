@@ -1,5 +1,7 @@
 # Quant team order plan — 2026-11-20
 
+> **Update after the close:** the portfolio was re-run on closing prices. Target weights and all share counts below are unchanged; limit reference prices and stops were computed from the pre-close snapshot and are off by under 1% (e.g. MSFT 481.83 then, 484.52 at the close). Recompute limits from live quotes before entering anything. Tranche 1 still awaits a decision on the QQQ-below-MA50 gate.
+
 **Status: PROVISIONAL PLAN. No orders have been placed.** This desk has no market access; the plan is for a human to execute.
 
 The portfolio file is an intraday snapshot (~3:52pm ET, minutes before the close). Every price, share count, stop and dollar figure below is provisional. Re-run `python quant_team.py screen` and `optimize` on closing prices and recompute this plan before any order goes in.

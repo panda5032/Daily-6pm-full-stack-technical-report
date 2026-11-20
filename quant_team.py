@@ -76,6 +76,7 @@ TARGET_VOL = 0.25            # ex-ante annual vol ceiling for the whole book
 IC_QUANT = 0.05              # information coefficient assumed for the factor score
 IC_VIEW = 0.10               # ... and for a full-conviction analyst view
 ERP = 0.05                   # equity risk premium used for the beta prior
+AVOID_CUTOFF = -0.4          # net analyst view (view x conviction) at or below this = never a new buy
 COST_BPS = 10                # one-way trading cost in the backtest
 REBAL_DAYS = 21
 TRADING_DAYS = 252
@@ -597,7 +598,8 @@ def stage_optimize(args) -> dict:
     pool["view"] = view.reindex(pool.index).fillna(0)
     # information score: what the optimiser is actually paid for, per unit of vol
     pool["info"] = IC_QUANT * pool["alpha"].clip(-3, 3) + IC_VIEW * pool["view"]
-    pool = pool[pool["info"] > 0].sort_values("info", ascending=False).head(args.names)
+    avoided = {t: _f(v) for t, v in pool["view"].items() if v <= AVOID_CUTOFF}
+    pool = pool[(pool["info"] > 0) & (pool["view"] > AVOID_CUTOFF)].sort_values("info", ascending=False).head(args.names)
     names = list(pool.index)
     ret = close[names].pct_change().iloc[-TRADING_DAYS:]
     cov, delta = ledoit_wolf_cc(ret)
@@ -655,7 +657,7 @@ def stage_optimize(args) -> dict:
                       sharpe=sharpe, cov_shrinkage=delta,
                       assumptions=f"IC {IC_QUANT} on factor score, IC {IC_VIEW} on analyst views, ERP {ERP:.0%}; model estimate, not a forecast"),
         risk=risk, positions=positions, exits=exits, cash_dollars=round(capital - invested, 2),
-        vetoes=veto_notes, views_used=len(view), alternatives=alts,
+        vetoes=veto_notes, avoided_by_research=avoided, views_used=len(view), alternatives=alts,
         not_selected=[dict(ticker=t, alpha=_f(r["alpha"]), view=_f(r["view"])) for t, r in pool.drop(index=w.index).iterrows()])
     (HERE / f"quant_team_portfolio_{asof}.json").write_text(json.dumps(out, indent=1, ensure_ascii=False, default=_f))
     (HERE / f"quant_team_portfolio_{asof}.md").write_text(render_md(out), encoding="utf-8")

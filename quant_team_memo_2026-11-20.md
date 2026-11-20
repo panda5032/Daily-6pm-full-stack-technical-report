@@ -1,6 +1,6 @@
 # Quant team memo — 2026-11-20 (first run)
 
-**Status: provisional.** Prices are an intraday snapshot taken ~3:52pm ET, eight minutes before the close. Re-run `python quant_team.py screen` and `optimize` on closing prices before acting.
+**Status: final on closing prices (2026-11-20 close).** Weights and share counts are unchanged from the pre-close snapshot; reference prices moved by under 1%. Engine change made on the re-run: names with a net research view of -0.4 or lower (USO, GME, UNH, TEAM) are now excluded from buys by rule. Without it, a tiny price move put USO back at 2% against the stock-research desk's avoid view.
 
 Desks that ran as separate agents: stock research, AI-stocks research, macro. The stock-picker audit, risk review and PM decision in this memo were done by the coordinating session, not by separate agents.
 
